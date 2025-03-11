@@ -1,0 +1,13 @@
+[Source ontology]
+OGG
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGG_0000000002 # gene
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+
+[Source term retrieval setting]
+includeAllIntermediates
