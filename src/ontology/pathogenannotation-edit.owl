@@ -13,6 +13,7 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl</Import>
 </Ontology>
 
 

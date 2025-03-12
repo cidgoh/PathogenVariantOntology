@@ -1,0 +1,3334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl#" xml:base="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:resource="http://semanticscience.org/resource/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label xml:lang="en">alternative label</rdfs:label>
+        <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <obo:IAO_0000117>OBO Operations committee</obo:IAO_0000117>
+        <rdfs:comment>Consider re-defing to: An alternative name for a class or property which can mean the same thing as the preferred name (semantically equivalent, narrow, broad or related).</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">A label for a class or property that can be used to refer to the class or property instead of the preferred rdfs:label. Alternative labels should be used to indicate community- or context-specific labels, abbreviations, shorthand forms and the like.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">alternative label</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">alternative term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+        <rdfs:label>definition editor</rdfs:label>
+        <rdfs:label xml:lang="en">definition editor</rdfs:label>
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition editor</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119>Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label>has curation status</rdfs:label>
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000281</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <rdfs:label>textual definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111>definition</obo:IAO_0000111>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111>textual definition</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000115>The official definition.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
+        <obo:IAO_0000111>label</obo:IAO_0000111>
+        <obo:IAO_0000115>A human readable name for this class.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label>editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000111>editor preferred term~editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111>editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000111>editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred label</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:label>comment</rdfs:label>
+        <obo:IAO_0000115>Comment.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000235 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000235">
+        <rdfs:label xml:lang="en">denoted by</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Mike Conlon</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">inverse of the relation 'denotes'</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002009 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002009">
+        <rdfs:label>cell expresses</rdfs:label>
+        <obo:IAO_0000115>A relation that applies between a cell(c) and a gene(g) , where the process of 'transcription, DNA templated (GO_0006351)' is occuring in in cell c and that process has input gene g.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002204 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002204">
+        <rdfs:label xml:lang="en">gene product of</rdfs:label>
+        <obo:IAO_0000115>definition "x has gene product of y if and only if y is a gene (SO:0000704) that participates in some gene expression process (GO:0010467) where the output of that process is either y or something that is ribosomally translated from x"</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002330"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002205 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002205">
+        <rdfs:label xml:lang="en">has gene product</rdfs:label>
+        <obo:IAO_0000115>x has gene product y if and only if x is a gene (SO:0000704) that participates in some gene expression process (GO:0010467) where the output of that process is either y or something that is ribosomally translated from y</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002330"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002206 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002206">
+        <rdfs:label xml:lang="en">expressed in</rdfs:label>
+        <obo:IAO_0000115>x expressed in y if and only if there is a gene expression process (GO:0010467) that occurs in y, and one of the following holds: (i) x is a gene, and x is transcribed into a transcript as part of the gene expression process (ii) x is a transcript, and the transcription of x is part of the gene expression process (iii) x is a mature gene product such as a protein, and x was translated or otherwise processes from a transcript that was transcribed as part of this gene expression process</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002330"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002245 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002245">
+        <rdfs:label>over-expressed in</rdfs:label>
+        <obo:IAO_0000115>g is over-expressed in t iff g is expressed in t, and the expression level of g is increased relative to some background.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002206"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002246 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002246">
+        <rdfs:label>under-expressed in</rdfs:label>
+        <obo:IAO_0000115>g is under-expressed in t iff g is expressed in t, and the expression level of g is decreased relative to some background.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002206"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002291 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002291">
+        <rdfs:label xml:lang="en">ubiquitously expressed in</rdfs:label>
+        <obo:IAO_0000115>x is ubiquitously expressed in y if and only if x is expressed in y, and the majority of cells in y express x</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002206"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002292 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002292">
+        <rdfs:label xml:lang="en">expresses</rdfs:label>
+        <obo:IAO_0000115>y expresses x if and only if there is a gene expression process (GO:0010467) that occurs in y, and one of the following holds: (i) x is a gene, and x is transcribed into a transcript as part of the gene expression process (ii) x is a transcript, and x was transcribed from a gene as part of the gene expression process (iii) x is a mature gene product (protein or RNA), and x was translated or otherwise processed from a transcript that was transcribed as part of the gene expression process.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002330"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002293 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002293">
+        <rdfs:label xml:lang="en">ubiquitously expresses</rdfs:label>
+        <obo:IAO_0000115>inverse of ubiquiotously expressed in</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002330 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002330">
+        <rdfs:label xml:lang="en">genomically related to</rdfs:label>
+        <obo:IAO_0000115>holds between two entities when some genome-level process such as gene expression is involved. This includes transcriptional, spliceosomal events. These relations can be used between either macromolecule entities (such as regions of nucleic acid) or between their abstract informational counterparts.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002510 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002510">
+        <rdfs:label>transcribed from</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ncbi.nlm.nih.gov/pubmed/20226267</obo:IAO_0000119>
+        <obo:IAO_0000115>x is transcribed from y if and only if x is synthesized from template y</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002330"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002511 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002511">
+        <rdfs:label>transcribed to</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ncbi.nlm.nih.gov/pubmed/20226267</obo:IAO_0000119>
+        <obo:IAO_0000115>inverse of transcribed from</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002330"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002512 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002512">
+        <rdfs:label>ribosomal translation of</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ncbi.nlm.nih.gov/pubmed/20226267</obo:IAO_0000119>
+        <obo:IAO_0000115>x is the ribosomal translation of y if and only if a ribosome reads x through a series of triplet codon-amino acid adaptor activities (GO:0030533) and produces y</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002330"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002513 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002513">
+        <rdfs:label>ribosomally translates to</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ncbi.nlm.nih.gov/pubmed/20226267</obo:IAO_0000119>
+        <obo:IAO_0000115>inverse of ribosomal translation of</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002330"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</obo:IAO_0000116>
+        <obo:IAO_0000111 xml:lang="en">entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants</obo:IAO_0000116>
+        <obo:IAO_0000111 xml:lang="en">continuant</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000115 xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">object</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+        <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:comment xml:lang="en">A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">material entity</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cob.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</rdfs:label>
+        <rdfs:label>chemical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <obo:IAO_0000115>A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50047">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic amino compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000237">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2</rdfs:label>
+        <rdfs:label xml:lang="en">SARS-CoV-2 amino acid variant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000243"/>
+        <obo:IAO_0000119>https://www.science.org/doi/10.1126/science.abl6184</obo:IAO_0000119>
+        <obo:IAO_0000118>AA variant in SARS-CoV-2</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA variant that occurs in a SARS-CoV-2 viral proteome</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000238">
+        <rdfs:label xml:lang="en">D614G in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001156"/>
+        <obo:IAO_0000115>A SARS-CoV-2 amino acid variant that is located at the position 614 in the Wuhan reference strain S protein, and has been changed from D in the reference protein to the G residue.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">D614G in SARS-CoV-2 spike-protein</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.cell.com/cell/pdf/S0092-8674(20)30820-5.pdf</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
+        <obo:IAO_0000118>D614G, S-D614G</obo:IAO_0000118>
+        <obo:IAO_0000118>S-D614G</obo:IAO_0000118>
+        <rdfs:comment>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</rdfs:comment>
+        <obo:IAO_0000118>D614G</obo:IAO_0000118>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>The Spike D614G amino acid change is caused by an A-to-G nucleotide mutation at position 23,403 (A23403G) in the Wuhan reference strain; it was the only site identified in our first Spike variation analysis in early March 2020 that met our threshold criterion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000239">
+        <rdfs:label xml:lang="en">Q57H in SARS-CoV2 NS3 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000616"/>
+        <obo:IAO_0000115>An aa-changing SNP variant of G25563T that occurs in the ORF3a protein of a SARS-CoV-2 virus. It is a characteristic mutation of SARS-CoV-2 clade GH.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
+        <obo:IAO_0000118>Q57H</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">NS3-Q57H</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000240">
+        <rdfs:label xml:lang="en">N-RG203KR</rdfs:label>
+        <rdfs:label xml:lang="en">RG203KR in SARS-CoV-2 N protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000597"/>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
+        <obo:IAO_0000115>An aa-changing SNP triplet GGG28881AAC that occurs in a Nucleocapsid protein of a SARS-CoV-2 virus. This mutations AA at positions in 203 and 204 into lysine and arginene. It is a signature variant of SARS-CoV-2 clade GR.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>RG203KR</obo:IAO_0000118>
+        <obo:IAO_0000115>An aa-changing SNP triplet GGG28881AAC that occurs in a Nucleocapsid protein of a SARS-CoV-2 virus.It is a signature variant of SARS-CoV-2 clade GR.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000241">
+        <rdfs:label xml:lang="en">L84S in SARS-CoV-2 NS8 protein</rdfs:label>
+        <rdfs:label xml:lang="en">NS8-L84S</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000617"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>ORF8-L84S, NS8-L84S</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
+        <obo:IAO_0000115>ORF8-L84S is SNP variant that occurs at T28144C at ORF8 protein, which is shown in a SARS-CoV-2 clade S variant virus.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000242">
+        <rdfs:label>NS3-G251V</rdfs:label>
+        <rdfs:label>G251V in SARS-CoV2 NS3 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000616"/>
+        <obo:IAO_0000119>https://www.gisaid.org/references/statements-clarifications/clade-and-lineage-nomenclature-aids-in-genomic-epidemiology-of-active-hcov-19-viruses/</obo:IAO_0000119>
+        <obo:IAO_0000118 xml:lang="en">NS3-G251</obo:IAO_0000118>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000115>ORF3a:G251V</obo:IAO_0000115>
+        <obo:IAO_0000115>an aa-changing SNP variant that occurs at G26144T at ORF3a protein of SARS-CoV-2 virus. It is a signature variation in SARS-CoV clade V.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7387429/</obo:IAO_0000119>
+        <obo:IAO_0000118>ORF3a-G251V</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000243">
+        <rdfs:label xml:lang="en">coronaviral amino acid variant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <obo:IAO_0000115>A chemical entity that is an amino acid variant in a coronavirus proteome. Such an amino acid variant is defined as a substittion of amino acid residues. Such a variant is defined by comparing with the reference strain of the coronavirus. For example, D614G is a SARS-CoV-2 coronoviral amino acid variant that has the change from D to G at the position 614 compared with the reference Wuhan strain.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>coronaviral amino acid variant</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000277">
+        <rdfs:label xml:lang="en">N501Y in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:label xml:lang="en">S-N501Y</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
+        <obo:IAO_0000118>S-N501Y</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000278">
+        <rdfs:label xml:lang="en">G204R in SARS-CoV-2 N protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000597"/>
+        <obo:IAO_0000119>An AA variant that has mutated an amino acid at position 204 into a arginine</obo:IAO_0000119>
+        <obo:IAO_0000118 xml:lang="en">N-G204R</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000279">
+        <rdfs:label>A222V in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:comment>An AA variant that has mutated an amino acid at position 222 into valine in S protein.</rdfs:comment>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118 xml:lang="en">S-A222V</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000591">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA variant that is located in theSARS-CoV-2 S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000592">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S1 region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000591"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA variant that is located in the S1 domain of SARS-CoV-2 S protein. In the original Wuhan strain, this contains amino acids from positions 1-685.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000593">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S1 RBD region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA variant that is located in the RBD of SARS-CoV-2 S protein. In the original Wuhan strain, this contains amino acids from position 306-527.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000594 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000594">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S1 NTD region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA variant that is located in the RBD of SARS-CoV-2 S protein. In the original Wuhan strain, this contains amino acids from position 14-290.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000595">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000591"/>
+        <obo:IAO_0000115>An AA variant that is located in the S2 region of SARS-CoV-2 S protein. In the original Wuhan strain, this contains amino acids from position 696 to end of the protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000596">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 N protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000597">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 N protein LKR region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000596"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000598">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 E protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000601">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 NS7 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000602">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 ORF1ab polyprotein product</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA variant that is found in comparison to the  ORF1ab  polyprotein product. The AA variants in this polyprotein are equivalent to AA variants found in the non-structural protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000611">
+        <rdfs:label xml:lang="en">N440K in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 211 into a lysine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000612">
+        <rdfs:label xml:lang="en">G142D in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 142 into a aspartic acid in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000616">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 NS3 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <obo:IAO_0000118>AA variant in SARS-CoV-2 NS3a protein, AA variant in ORF3a protein (SARS-CoV-2)'</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000617">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 NS8 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000619 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000619">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 M protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000620 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000620">
+        <rdfs:label>P71L in SARS-CoV-2 E protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000598"/>
+        <obo:IAO_0000118>E-71L</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 71 into a leucine</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000621">
+        <rdfs:label>T9I in SARS-CoV-2 E protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000598"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 9 into a isoleucine</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>E-T9I</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000622">
+        <rdfs:label>A63T in SARS-CoV-2 M protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000619"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 63 into a threonine in M protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>M-A63T</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000623">
+        <rdfs:label>D3G in SARS-CoV-2 M protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000619"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3 into a aspartic acid in M protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>M-D3G</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000624">
+        <rdfs:label>I82T in SARS-CoV-2 M protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000619"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>M-I82T</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 182 into a threonine in M protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000625">
+        <rdfs:label>Q19E in SARS-CoV-2 M protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000619"/>
+        <obo:IAO_0000118>M-Q19E</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 19 into a glutamine  in M protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000626">
+        <rdfs:label>D377Y in SARS-CoV-2 N protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000596"/>
+        <obo:IAO_0000118>N-D377Y</obo:IAO_0000118>
+        <obo:IAO_0000119>https://covariants.org/variants</obo:IAO_0000119>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 377 into a tyrosine in N protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000627">
+        <rdfs:label>D3L in SARS-CoV-2 N protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000596"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>N-D3L</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3 into a leucine in N protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000628">
+        <rdfs:label>D63G in SARS-CoV-2 N protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000596"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 63 into a glycine in N protein.</obo:IAO_0000115>
+        <obo:IAO_0000118>N-D63G</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000629">
+        <rdfs:label>P80R in SARS-CoV-2 N protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000596"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 800 into a arginine in N protein.</obo:IAO_0000115>
+        <obo:IAO_0000118>N-P80R</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000630 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000630">
+        <rdfs:label>R203M in SARS-CoV-2 N protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000596"/>
+        <obo:IAO_0000118>N-203M</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 203 into a methionine in N protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000631">
+        <rdfs:label>S235F in SARS-CoV-2 N protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000596"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 235 into a phenylalanine in N protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>N-S235F</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000632">
+        <rdfs:label>T205I in SARS-CoV-2 N protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000596"/>
+        <obo:IAO_0000118>N-T205I</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 205 into a isoleucine in N protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000633">
+        <rdfs:label>A1708D in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-A1708D</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1708 into a aspartic acid  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000636 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000636">
+        <rdfs:label>I2230T in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 2230 into a threonine</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-I2230T</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000637 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000637">
+        <rdfs:label>I3758V in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3758 into a valine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000118>pp1a-I3758V</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000638">
+        <rdfs:label>K1655N in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1655 into a asparagine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-K1655N</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000639">
+        <rdfs:label>K1795Q in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1a-K1795Q</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1795 into a glutamine   in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000640">
+        <rdfs:label>K856R in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 856 into a arginine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-K856R</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000641">
+        <rdfs:label>P3395H in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001076"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3395 into a histidine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000118>pp1a-P3395H</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000642">
+        <rdfs:label>S1188L in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1a-S188L</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1188 into a leucine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000644">
+        <rdfs:label>T1001I in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1001 into a isoleucine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1a-T1001I</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000645 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000645">
+        <rdfs:label>T3255I in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001076"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3255 into a isoleucine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-T3255I</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000646">
+        <rdfs:label>G662S in SARS-CoV-2 pp1b protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001083"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 662 into a serine in pp1b.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-G662S</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000647">
+        <rdfs:label>I1566V in SARS-CoV-2 pp1b protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001085"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1566 into a valine in pp1b.</obo:IAO_0000115>
+        <obo:IAO_0000118>pp1b-I1566V</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000648 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000648">
+        <rdfs:label>P1000L in SARS-CoV-2 pp1b protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001084"/>
+        <rdfs:comment>in pp1b.</rdfs:comment>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1b-P1000L</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1000 into a leucine</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000649">
+        <rdfs:label>P314L in SARS-CoV-2 pp1b protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001083"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 314 into a leucine  in pp1b.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-P314L</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000650">
+        <rdfs:label>S26L in SARS-CoV-2 NS3 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000616"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 26 into a leucine</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000652">
+        <rdfs:label xml:lang="en">Y505H in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 505 into a histidine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">S-Y505H</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000653">
+        <rdfs:label>E92K in SARS-CoV-2 NS8 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000617"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>NS8-E92K</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 92 into a lysine in ns8.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000655">
+        <rdfs:label>R52I in SARS-CoV-2 NS8 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000617"/>
+        <obo:IAO_0000118>NS8-R85I</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 52 into a isoleucine in ns8.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000656">
+        <rdfs:label>Y73C in SARS-CoV-2 NS8 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000617"/>
+        <obo:IAO_0000118>NS8-773C</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 73 into a cysteine in ns8.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000658">
+        <rdfs:label>A570D in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001155"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 570 into aspartic acid in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-A570D</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000659">
+        <rdfs:label>A67V in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 67 into a valine  in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000660">
+        <rdfs:label>D118H in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 118 into a histidine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000661 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000661">
+        <rdfs:label>D138Y in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 138 into a tyrosine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000662 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000662">
+        <rdfs:label>D215G in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 215 into a glycine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000663 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000663">
+        <rdfs:label>D796Y in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001158"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-D796Y</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 796 into a tyrosine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000664">
+        <rdfs:label>D80A in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 80 into a alanine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000665">
+        <rdfs:label>D950N in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 950 into a aspargine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-D950N</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000667">
+        <rdfs:label>E484A in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 484 into a alanine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-E484A</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000668">
+        <rdfs:label>E484K in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 484 into a lysine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-E484K</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000670">
+        <rdfs:label>G339D in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-G339D</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 339 into a aspartic acid in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000671">
+        <rdfs:label>G446S in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-G446S</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 446 into a serine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000672 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000672">
+        <rdfs:label>G496S in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 496 into a serine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-G496S</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000673">
+        <rdfs:label>H655Y in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 655 into a tyrosine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-655Y</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000674">
+        <rdfs:label>K417N in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 417 into a asparagine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-K417N</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000675">
+        <rdfs:label>K417T in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 417 into a threonine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-K417T</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000676">
+        <rdfs:label>L18F in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 18 into a phenylalanine</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000677">
+        <rdfs:label>L452R in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000118>S-L452R</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 452 into a arginine</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000678">
+        <rdfs:label>L981F in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001161"/>
+        <obo:IAO_0000118>S-L981F</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 981 into a phenylalanine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000679">
+        <rdfs:label>N211I in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 211 into a isoleucine</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000680">
+        <rdfs:label>N679K in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-N679K</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 679 into a lysine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000681">
+        <rdfs:label>N764K in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 764 into a lysine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-N764K</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000682">
+        <rdfs:label>N856K in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000118>S-N856K</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 856 into a lysine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000683">
+        <rdfs:label>N969K in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001161"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 969 into a lysine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-N969K</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000684">
+        <rdfs:label>P26S in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 26 into a serine</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000685">
+        <rdfs:label>P681H in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-P681R</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 681 into a histidine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000686">
+        <rdfs:label>P681R in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-P681R</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 681 into a arginine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000687">
+        <rdfs:label>Q493R in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 493 into a arginine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000688">
+        <rdfs:label>Q498R in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 498 into a arginine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-Q498R</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000689">
+        <rdfs:label>Q954H in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001162"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 954 into a histidine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000118>S-Q954H</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000690">
+        <rdfs:label>R158G in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 158 into a glycine</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000691">
+        <rdfs:label>R190S in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 190 into a serine</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000692">
+        <rdfs:label>S371L in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 371 into a leucine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-371L</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000693">
+        <rdfs:label>S373P in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 373 into a proline in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000118>S-373P</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000694">
+        <rdfs:label>S375F in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000118>S-375F</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 375 into a phenylalanine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000695">
+        <rdfs:label>S477N in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 477 into a asparagine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000696">
+        <rdfs:label>S982A in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001161"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 982 into a alanine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-S982A</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000697">
+        <rdfs:label>T1027I in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001162"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-T1027I</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1027 into a isoleucine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000698">
+        <rdfs:label>T19R in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 19 into a arginine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000699">
+        <rdfs:label>T20N in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 20 into a aspargine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000700">
+        <rdfs:label>T478K in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001157"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 478 into a lysine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000701">
+        <rdfs:label>T547K in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <obo:IAO_0000118>S-T547K</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 547 into a lysine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000702">
+        <rdfs:label>T716I in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001158"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-T716I</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 716 into a isoleucine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000703">
+        <rdfs:label>T95I in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 95 into a isoleucine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000709">
+        <rdfs:label xml:lang="en">F888L in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 888 into a leucine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000118>S-F888L</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000710">
+        <rdfs:label xml:lang="en">T2007I in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 2007 into isoleucine</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-T2007I</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000711">
+        <rdfs:label xml:lang="en">L1203F in SARS-CoV-2 pp1b protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001084"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1b-L1203F</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 314 into a phenylalanine in pp1b.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000712">
+        <rdfs:label xml:lang="en">Q777H in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-Q777H</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 777 into a histidine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000714">
+        <rdfs:label xml:lang="en">AA variant pp1a SARS-CoV-2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA variant that is found within pp1a of SARS-CoV-2</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000715">
+        <rdfs:label xml:lang="en">AA variant pp1b SARS-CoV-2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000602"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA variant that is found within pp1b of SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000716">
+        <rdfs:label xml:lang="en">P314F in SARS-CoV-2 pp1b protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001083"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 314 into a phenylalanine  in pp1b.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1b-P314F</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000717">
+        <rdfs:label xml:lang="en">L3468V in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001076"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1a-L3468V</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3468 into a valine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000718">
+        <rdfs:label xml:lang="en">L3930F in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001079"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3930 into a phenylalanine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000118>pp1a-L3930F</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000719">
+        <rdfs:label xml:lang="en">V1176F in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001164"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-V1176F</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1176 into a phenylalanine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000720">
+        <rdfs:label xml:lang="en">H1101Y in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001163"/>
+        <obo:IAO_0000118>S-H1101Y</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1101 into a tyrosine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000721">
+        <rdfs:label xml:lang="en">E1092K in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001163"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1092 into a glutamic acid in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-E1092K</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000722">
+        <rdfs:label xml:lang="en">D1554G in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 1554 into a glycine   in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000118>pp1a-D1554G</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000723">
+        <rdfs:label xml:lang="en">S2625F in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1554 into a phenylalanine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000118>pp1a-S2625F</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000724">
+        <rdfs:label xml:lang="en">D2980N in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001073"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1a-D2980N</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 2980 into an arginine</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000725">
+        <rdfs:label xml:lang="en">L3201P in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001075"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3201 into a leucine in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000118>pp1a-L3201P</obo:IAO_0000118>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000726">
+        <rdfs:label xml:lang="en">T1567I in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001074"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1567 into isoleucine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1a-T1567I</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000727">
+        <rdfs:label xml:lang="en">T3646A in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001077"/>
+        <obo:IAO_0000118>pp1a-T346A</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3646 into alanine   in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000728">
+        <rdfs:label xml:lang="en">E484Q in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 484 into glutamine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-E484Q</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000729">
+        <rdfs:label xml:lang="en">Q1071H in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1071 into a histidine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-Q107H</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000730">
+        <rdfs:label xml:lang="en">Q1011H in SARS-CoV-2 pp1b protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001084"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>pp1b-Q1011H</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 1011 into a glutamine  in pp1b.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000731">
+        <rdfs:label xml:lang="en">D253G in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000118>S-D53G</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 253 into glycine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000737">
+        <rdfs:label xml:lang="en">G75V in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:comment>An AA variant that has mutated an amino acid at position 75 into valine in S protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000738">
+        <rdfs:label xml:lang="en">T76I in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <rdfs:comment>An AA variant that has mutated an amino acid at position 76 into isoleucine in S protein.</rdfs:comment>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000739">
+        <rdfs:label xml:lang="en">L452Q in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000118>S-L452Q</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 452 into glutamine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000740">
+        <rdfs:label xml:lang="en">T859N in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000118 xml:lang="en">S-A222V</obo:IAO_0000118>
+        <obo:IAO_0000118>S-T859N</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <rdfs:comment>An AA variant that has mutated an amino acid at position 859 into arginine in S protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000741">
+        <rdfs:label xml:lang="en">R246N in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 452 into aspargine in S protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>S-R246N</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000742">
+        <rdfs:label xml:lang="en">W152C in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <rdfs:comment>An AA variant that has mutated an amino acid at position 152 into cystiene in S protein.</rdfs:comment>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000743">
+        <rdfs:label xml:lang="en">S13I in SARS-CoV-2 S protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000594"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA variant that has mutated an amino acid at position 13 into isoleucine in S protein</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000744">
+        <rdfs:label xml:lang="en">T265I in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001073"/>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1a-T265I</obo:IAO_0000118>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 265 into a isoleucine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000745">
+        <rdfs:label xml:lang="en">S3159T in SARS-CoV-2 pp1a protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001075"/>
+        <obo:IAO_0000115>An AA mutation or AA variant that has mutated an amino acid at position 3159 into threonine  in pp1a.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1a-S3159T</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000746">
+        <rdfs:label xml:lang="en">D1183Y in SARS-CoV-2 pp1b protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001084"/>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000115>An AA variant that has mutated a pp1b amino acid at position 1183 into tyrosine.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1b-D1183Y</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000747">
+        <rdfs:label xml:lang="en">P976L in SARS-CoV-2 pp1b protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001084"/>
+        <obo:IAO_0000115>An AA variant that has mutated an pp1b amino acid at position 976 into leucine in pp1b.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000118>pp1b-P976L</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001072">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp1 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001073">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp2 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp2 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 181 - 818.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001074">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp3 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp3 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 819 - 2740.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001075">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp4 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <obo:IAO_0000119>An AA variant in SARS-CoV-2 nsp8 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 2742 - 3240.</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001076">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp5 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp8 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 3241 - 3546.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001077">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp6 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp6 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 3547 - 3836.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001078">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp7 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp7 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 3837 - 3919.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001079">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp8 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp8 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 3920 - 4117.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001080">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp9 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp9 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 4118 - 4230.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001081">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp10 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000714"/>
+        <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp10 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 4231 - 4369.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001083">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp12 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001084">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp13 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
+        <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp13 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 5302 - 5902.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001085">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp14 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp14 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 5903 - 6429.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001086">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 nsp15 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000715"/>
+        <obo:IAO_0000115>An AA variant in SARS-CoV-2 nsp15 protein. Equivalent to an AA variant in SARS-CoV-2 rep 1ab with an AA position of 6430 - 6775.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.uniprot.org/uniprot/A7J8L2</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001153">
+        <rdfs:label xml:lang="en">R203K in SARS-CoV-2 N protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000597"/>
+        <obo:IAO_0000118 xml:lang="en">N-G204R</obo:IAO_0000118>
+        <obo:IAO_0000119>https://cov-lineages.org/</obo:IAO_0000119>
+        <obo:IAO_0000119>An AA variant that has mutated an amino acid at position 203 into a lycine.</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001155">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 protein SD1 S1 region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001156">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 protein SD2 S1 region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000592"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001157">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2  S protein RBM region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000593"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001158">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 UH region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001159">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 FP region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001160">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 FPR region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001161">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 HR1 region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001162">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 CH region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001163">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 CD region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001164">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 HR2 region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001165">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 TM region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001166">
+        <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 S protein S2 CT region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000595"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COB_0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COB_0000080">
+        <rdfs:label xml:lang="en">complex of molecules</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">A complex of two or more molecular entities that are not covalently bound.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cob.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+        <rdfs:label xml:lang="en">data item</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:label xml:lang="en">information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000116 xml:lang="en">2014-03-10: The use of "thing" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ).</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some thing.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">information content entity</obo:IAO_0000111>
+        <obo:IAO_0000116 xml:lang="en">information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).
+
+Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity.</obo:IAO_0000116>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109">
+        <rdfs:label xml:lang="en">measurement datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000300">
+        <rdfs:label xml:lang="en">textual entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">AR, (IAO call 2009-09-01): a document as a whole is not typically a textual entity, because it has pictures in it - rather there are parts of it that are textual entities. Examples: The title, paragraph 2 sentence 7, etc.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">MC, 2009-09-14 (following IAO call 2009-09-01): textual entities live at the FRBR (http://en.wikipedia.org/wiki/Functional_Requirements_for_Bibliographic_Records) manifestation level. Everything is significant: line break, pdf and html versions of same document are different textual entities.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Lawrence Hunter</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">text</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">textual entity</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310">
+        <rdfs:label xml:lang="en">document</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of information content entities intended to be understood together as a whole</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Lawrence Hunter</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">document</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000973">
+        <rdfs:label xml:lang="en">sequence data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that representing the primary structure of a macromolecule(it's sequence) sometimes associated with an indicator of confidence of that measurement.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_0000000001">
+        <rdfs:label xml:lang="en">genome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A genome is a material entity that represents the entirety of an organism's hereditary information. The genome includes both the genes and the non-coding sequences of the DNA and RNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_0000000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_0000000002">
+        <rdfs:label xml:lang="en">gene</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A gene is a material entity that represents the entire DNA sequence required for synthesis of a functional protein or RNA molecule. </obo:IAO_0000115>
+        <rdfs:comment>In addition to the coding regions (exons), a gene includes transcription-control regions and sometimes introns. Although the majority of genes encode proteins, some encode tRNAs, rRNAs, and other types of RNA.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000064867"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The definition above excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to CHEBI:36080. Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000018263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018263">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid chain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50047"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=polymer.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000018264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018264">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proteolytic cleavage product</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is produced as the result of proteolytic processing of a longer protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000036197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000036197">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is encoded in the genome of some virus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050262">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">severe acute respiratory syndrome coronavirus 2 protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000036197"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is encoded in the genome of Severe acute respiratory syndrome coronavirus 2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050263">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rep gene translation product (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF1ab gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: The rep gene produces two translation products, one with (ORF1ab) and one without (ORF1a) -1 ribosomal frameshifting. Both products are further processed by proteolytic cleavage to yield 10 identical chains, while 1 additional chain is unique to ORF1a and 5 additional chains are unique to ORF1ab.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050264">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF8 protein, signal peptide removed form (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC8"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ORF8 protein (SARS-CoV-2) that has had the signal peptide removed. UniProtKB:P0DTC8, 16-121.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 106 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050265">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF7a protein, signal peptide removed form (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ORF7a protein (SARS-CoV-2) that has had the signal peptide removed. UniProtKB:P0DTC7, 16-121.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 106 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050266">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spike glycoprotein, signal peptide removed form (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spike glycoprotein (SARS-CoV-2) that has had the signal peptide removed. UniProtKB:P0DTC2, 14-1273.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 1260 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050267">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spike protein S1 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050266"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spike glycoprotein, signal peptide removed form (SARS-CoV-2) that has been processed by proteolytic cleavage to yield the N-terminal portion. UniProtKB:P0DTC2, 13-685.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 672 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050268">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spike protein S2 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050266"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spike glycoprotein, signal peptide removed form (SARS-CoV-2) that has been processed by proteolytic cleavage to yield the C-terminal portion. UniProtKB:P0DTC2, 686-1273.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 588 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050269">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spike protein S2' (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050268"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spike protein S2 (SARS-CoV-2) that has been further processed by proteolytic cleavage to yield the C-terminal portion. UniProtKB:P0DTC2, 816-1273.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 458 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050270">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host translation inhibitor nsp1 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene proteolytic cleavage product (SARS-CoV-2) that is the N-terminal portion produced by the enzymatic action of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 180-181.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 180 aa protein. Proteinase inferred from PMID:15564471.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050271">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-structural protein 2 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 180-181 and 818-819.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 638 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050272">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">papain-like proteinase nsp3 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the autocatalytic action of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 818-819 and 2763-2764.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 1945 aa protein. Unlike some other coronaviruses, SARS coronaviruses only encode a single papain-like proteinase, PLpro. [PMID:15564471]</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050273">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-structural protein 4 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the combined actions of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 2763-2764, and 3CL-PRO (nsp5) when it cleaves the precursor between residues 3263-3264.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 500 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050274">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3C-like proteinase nsp5 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the autocatalytic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 3263-3264 and 3569-3570.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 306 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050275">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-structural protein 6 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 3569-3570 and 3859-3860.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 290 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050276">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-structural protein 7 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 3859-3860 and 3942-3943.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 83 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050277">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-structural protein 8 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 3942-3943 and 4140-4141.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 198 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050278">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-structural protein 9 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 4140-4141 and 4253-4254.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 113 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050279">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-structural protein 10 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 4253-4254 and 4392-4393.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 139 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050280">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-structural protein 11 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050282"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ORF1a proteolytic cleavage product (SARS-CoV-2) that is the C-terminal portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1a (SARS-CoV-2) between residues 4392-4393. UniProtKB:P0DTC1, 4393-4405.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 13 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050281">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rep gene proteolytic cleavage product (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018264"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050263"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene translation product (SARS-CoV-2) that has been processed by proteolytic cleavage.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050282">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF1a proteolytic cleavage product (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC1-1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A replicase polyprotein 1a (SARS-CoV-2) that has been processed by proteolytic cleavage.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050283">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF1ab proteolytic cleavage product (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1-1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A replicase polyprotein 1ab (SARS-CoV-2) that has been processed by proteolytic cleavage.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050284">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-directed RNA polymerase nsp12 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050283"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ORF1ab proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1ab (SARS-CoV-2) between residues 4392-4393 and 5324-5325. UniProtKB:P0DTD1, 4393-5324.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 932 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050285">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">helicase nsp13 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050283"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ORF1ab proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1ab (SARS-CoV-2) between residues 5324-5325 and 5925-5926. UniProtKB:P0DTD1, 4393-5324.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 601 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050286">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proofreading exoribonuclease nsp14 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050283"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ORF1ab proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1ab (SARS-CoV-2) between residues 5925-5926 and 6452-6453. UniProtKB:P0DTD1, 4393-5324.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 527 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050287">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uridylate-specific endoribonuclease nsp15 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050283"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ORF1ab proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1ab (SARS-CoV-2) between residues 6452-6453 and 6798-6799. UniProtKB:P0DTD1, 6453-6798.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 346 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050288">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2'-O-methyltransferase nsp16 (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050283"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ORF1ab proteolytic cleavage product (SARS-CoV-2) that is the C-terminal portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1ab (SARS-CoV-2) between residues 6798-6799. UniProtKB:P0DTD1, 6453-6798.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 298 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000050289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050289">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NSP2-3 intermediate (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050281"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the enzymatic action of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 180-181 and 2763-2764.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: Inferred from PMID:15564471.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000064867 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000064867">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-containing molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A molecular entity that minimally consists of a protein.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note: This includes single proteins and derivatives thereof (PR:000000001), protein-containing complexes (GO:0032991), and protein aggregates (PR:000050565).</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_A0A663DJA2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_A0A663DJA2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">putative ORF10 protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF10 gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 38 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC1-1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC1-1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replicase polyprotein 1a (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050263"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTC1-1.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-sequence. Note: 4405 aa protein. Undergoes additional processing by proteolytic cleavage.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spike glycoprotein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the S gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 1273 aa protein. Undergoes additional processing by proteolytic cleavage.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF3a protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF3a gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 275 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">envelope small membrane protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the E gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 75 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the M gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 222 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF6 protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF6 gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 61 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF7a protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF7a gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 121 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF8 protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF8 gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 121 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleoprotein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the N gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 419 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTD1-1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD1-1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replicase polyprotein 1ab (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050263"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTD1-1. Requires ribosomal frameshifting.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-sequence. Note: 7096 aa protein. Undergoes additional processing by proteolytic cleavage.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTD2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF9b protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF9b gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 97 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTD3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">putative ORF9c protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF9c gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 73 aa protein. Considered a dubious prediction [PMID:33976134].</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTD8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF7b protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF7b gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 43 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTF1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTF1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">putative ORF3b protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF3b gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 22 aa protein. Considered a dubious prediction [PMID:33976134].</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTG0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTG0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">putative ORF3d protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF3d gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 57 aa protein. Considered a dubious prediction [PMID:33976134].</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTG1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTG1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORF3c protein (SARS-CoV-2)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050262"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the ORF3c gene in SARS-CoV-2.</obo:IAO_0000115>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-gene. Note: 41 aa protein.</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000136 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000136">
+        <rdfs:label xml:lang="en">description</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A description is language entity in which elements of a language (formal or natural) are used to characterize an entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Class>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+</rdf:RDF>
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->

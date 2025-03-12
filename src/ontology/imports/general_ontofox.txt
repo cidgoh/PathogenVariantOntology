@@ -1,0 +1,228 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl ##file name change needed - MRI
+
+#################################################
+
+[Source ontology]
+CIDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CIDO_0000237 # SARS-CoV-2 amino acid variant
+includeAllChildren
+	
+# RELATIONS
+#http://purl.obolibrary.org/obo/CIDO_0000244 # variant of
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
+http://purl.obolibrary.org/obo/IAO_0000114 # curation status
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
+http://purl.obolibrary.org/obo/IAO_0000118 # alternate terms
+http://purl.obolibrary.org/obo/IAO_0000119 # definition source
+
+
+#################################################
+
+[Source ontology]
+COB
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/COB_0000080  #complex of molecular entities
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
+http://purl.obolibrary.org/obo/IAO_0000114 # curation status
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
+http://purl.obolibrary.org/obo/IAO_0000118 # alternate terms
+http://purl.obolibrary.org/obo/IAO_0000119 # definition source
+
+
+#################################################
+
+
+[Source ontology]
+IAO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IAO_0000235 # denoted by
+http://purl.obolibrary.org/obo/IAO_0000310 # document
+http://purl.obolibrary.org/obo/IAO_0000300 # textual entity
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
+http://purl.obolibrary.org/obo/IAO_0000114 # curation status
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000116 # editor note
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
+http://purl.obolibrary.org/obo/IAO_0000118 # alternate terms
+http://purl.obolibrary.org/obo/IAO_0000119 # definition source
+http://www.geneontology.org/formats/oboInOwl#hasDbXref
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+http://www.geneontology.org/formats/oboInOwl#inSubset
+http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
+
+[Source annotation URIs to be excluded]
+
+#################################################
+
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000973 # sequence data
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+
+#################################################
+
+
+[Source ontology]
+OGG
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGG_0000000002 # gene
+http://purl.obolibrary.org/obo/OGG_0000000001 # genome
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000115 #iao:definition
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+
+
+#################################################
+
+
+[Source ontology]
+PR
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PR_000000001 #protein
+http://purl.obolibrary.org/obo/PR_000050262 #severe acute respiratory syndrome coronavirus 2 protein
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
+http://purl.obolibrary.org/obo/IAO_0000114 # curation status
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
+http://purl.obolibrary.org/obo/IAO_0000118 # alternate terms
+http://purl.obolibrary.org/obo/IAO_0000119 # definition source
+
+
+#################################################
+
+
+[Source ontology]
+RO
+
+[Low level source term URIs]
+#http://purl.obolibrary.org/obo/RO_0002513 # ribosomally translates to
+http://purl.obolibrary.org/obo/RO_0002330 #genomically related to
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+#http://www.w3.org/2002/07/owl#topObjectProperty
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+#includeAllAxioms # CANT DO THIS UNTIL COB FULLY INTEGRATED WITH RO
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115 
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000119
+http://www.geneontology.org/formats/oboInOwl#oboInOwl:hasExactSynonym
+http://www.w3.org/2002/07/owl#deprecated
+http://purl.obolibrary.org/obo/IAO_0100001 # replaced by
+
+
+###########################################
+
+[Source ontology]
+SIO
+
+[Low level source term URIs]
+http://semanticscience.org/resource/SIO_000136 # description
+
+[Top level source term URIs and target direct superclass URIs]
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000111
+http://purl.obolibrary.org/obo/IAO_0000114
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000119
+http://purl.obolibrary.org/obo/OBI_0001886
+http://purl.org/dc/terms/description
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+
+[Source annotation URIs to be excluded]
+http://semanticscience.org/resource/SIO_000300  # has value
+
+#################################################
+
