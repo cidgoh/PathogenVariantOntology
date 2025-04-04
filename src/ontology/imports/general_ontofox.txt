@@ -33,10 +33,75 @@ http://purl.obolibrary.org/obo/IAO_0000119 # definition source
 #################################################
 
 [Source ontology]
+CHEBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_33839 # macromolecule
+includeAllChildren
+	
+# RELATIONS
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
+http://purl.obolibrary.org/obo/IAO_0000114 # curation status
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
+http://purl.obolibrary.org/obo/IAO_0000118 # alternate terms
+http://purl.obolibrary.org/obo/IAO_0000119 # definition source
+
+#################################################
+
+[Source ontology]
 COB
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/COB_0000080  #complex of molecular entities
+http://purl.obolibrary.org/obo/COB_0000502  #characteristic
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
+http://purl.obolibrary.org/obo/IAO_0000114 # curation status
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
+http://purl.obolibrary.org/obo/IAO_0000118 # alternate terms
+http://purl.obolibrary.org/obo/IAO_0000119 # definition source
+
+
+#################################################
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0019058 # viral life cycle
+http://purl.obolibrary.org/obo/GO_0042493 # response to drug
+http://purl.obolibrary.org/obo/GO_0042110 # T cell activation
+http://purl.obolibrary.org/obo/GO_0004904 # interferon receptor activity
+http://purl.obolibrary.org/obo/GO_0042783 # evasion of host immune response
+http://purl.obolibrary.org/obo/GO_0003823 # antigen binding
+http://purl.obolibrary.org/obo/GO_0098678 # viral tropism switching
+http://purl.obolibrary.org/obo/GO_0006508 # proteolysis
+http://purl.obolibrary.org/obo/GO_0046983 # protein dimerization activity
+http://purl.obolibrary.org/obo/GO_0043687 # post-translational protein modification
+http://purl.obolibrary.org/obo/GO_0034063 # stress granule assembly
+http://purl.obolibrary.org/obo/GO_0006949 # syncytium formation
+http://purl.obolibrary.org/obo/GO_0010467 # gene expression
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
@@ -91,8 +156,39 @@ http://www.geneontology.org/formats/oboInOwl#hasAlternativeId
 
 [Source annotation URIs to be excluded]
 
+
 #################################################
 
+
+[Source ontology]
+IDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IDO_0000596 # infectious agent
+http://purl.obolibrary.org/obo/IDO_0000537 # infectious agent host
+http://purl.obolibrary.org/obo/IDO_0000466 # virulence
+http://purl.obolibrary.org/obo/IDO_0000463 # infectious agent transmissibility
+http://purl.obolibrary.org/obo/IDO_0000470 # drug susceptibility of infectious agent
+http://purl.obolibrary.org/obo/IDO_0000464 # infectivity
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
+http://purl.obolibrary.org/obo/IAO_0000114 # curation status
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
+http://purl.obolibrary.org/obo/IAO_0000118 # alternate terms
+http://purl.obolibrary.org/obo/IAO_0000119 # definition source
+
+
+#################################################
 
 [Source ontology]
 OBI
@@ -143,6 +239,32 @@ http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
 
 #################################################
 
+
+[Source ontology]
+PATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0015026 #stability
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
+http://purl.obolibrary.org/obo/IAO_0000114 # curation status
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
+http://purl.obolibrary.org/obo/IAO_0000118 # alternate terms
+http://purl.obolibrary.org/obo/IAO_0000119 # definition source
+
+
+#################################################
 
 [Source ontology]
 PR
@@ -226,3 +348,56 @@ http://semanticscience.org/resource/SIO_000300  # has value
 
 #################################################
 
+
+[Source ontology]
+VIDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/VIDO_0001331 #viral load
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
+http://purl.obolibrary.org/obo/IAO_0000114 # curation status
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
+http://purl.obolibrary.org/obo/IAO_0000118 # alternate terms
+http://purl.obolibrary.org/obo/IAO_0000119 # definition source
+
+
+#################################################
+
+
+[Source ontology]
+VO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/VO_0000001 # vaccine
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
+http://purl.obolibrary.org/obo/IAO_0000114 # curation status
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
+http://purl.obolibrary.org/obo/IAO_0000118 # alternate terms
+http://purl.obolibrary.org/obo/IAO_0000119 # definition source
+
+
+#################################################
