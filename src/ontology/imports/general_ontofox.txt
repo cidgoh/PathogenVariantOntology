@@ -11,7 +11,7 @@ http://purl.obolibrary.org/obo/CIDO_0000237 # SARS-CoV-2 amino acid variant
 includeAllChildren
 	
 # RELATIONS
-#http://purl.obolibrary.org/obo/CIDO_0000244 # variant of
+http://purl.obolibrary.org/obo/CIDO_0000244 # variant of
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
