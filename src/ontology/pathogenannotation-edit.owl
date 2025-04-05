@@ -15,6 +15,7 @@
     <Import>http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl</Import>
     <Import>http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/genepio/imports/robot_pokay_import.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/ro/releases/2025-03-05/ro.owl</Import>
     <SubClassOf>
         <Class IRI="http://semanticscience.org/resource/SIO_000136"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000300"/>
