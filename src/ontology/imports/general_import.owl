@@ -1,12 +1,5 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl#"
-     xml:base="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:resource="http://semanticscience.org/resource/"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl#" xml:base="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:resource="http://semanticscience.org/resource/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl"/>
     
 
@@ -78,9 +71,6 @@
         <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
         <rdfs:label>textual definition</rdfs:label>
@@ -89,7 +79,7 @@
         <obo:IAO_0000116 xml:lang="en">2012-04-05: 
 Barry Smith
 
-The official OBI definition, explaining the meaning of a class or property: &#39;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&#39;  is terrible.
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
 
 Can you fix to something like:
 
@@ -97,16 +87,16 @@ A statement of necessary and sufficient conditions explaining the meaning of an 
 
 Alan Ruttenberg
 
-Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&#39;t be evaluated by those criteria. 
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
 
 On the specifics of the proposed definition:
 
-We don&#39;t have definitions of &#39;meaning&#39; or &#39;expression&#39; or &#39;property&#39;. For &#39;reference&#39; in the intended sense I think we use the term &#39;denotation&#39;. For &#39;expression&#39;, I think we you mean symbol, or identifier. For &#39;meaning&#39; it differs for class and property. For class we want documentation that let&#39;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&#39;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &#39;intended reader&#39; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
 
 Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
 
 We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
-        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition's source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
         <obo:IAO_0000115>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000111>definition</obo:IAO_0000111>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
@@ -117,6 +107,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>The official definition.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label>label</rdfs:label>
@@ -201,12 +194,49 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
+        <rdfs:label xml:lang="en">is about</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">7/6/2009 Alan Ruttenberg. Following discussion with Jonathan Rees, and introduction of "mentions" relation. Weaken the is_about relationship to be primitive. 
+
+We will try to build it back up by elaborating the various subproperties that are more precisely defined.
+
+Some currently missing phenomena that should be considered "about" are predications - "The only person who knows the answer is sitting beside me" , Allegory, Satire, and other literary forms that can be topical without explicitly mentioning the topic.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">A (currently) primitive relation that relates an information artifact to an entity.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Smith, Ceusters, Ruttenberg, 2000 years of philosophy</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000219 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000219">
+        <rdfs:label xml:lang="en">denotes</rdfs:label>
+        <rdfs:comment xml:lang="en"/>
+        <obo:IAO_0000116 xml:lang="en">2009-11-10 Alan Ruttenberg. Old definition said the following to emphasize the generic nature of this relation. We no longer have 'specifically denotes', which would have been primitive, so make this relation primitive.
+g denotes r =def 
+r is a portion of reality
+there is some c that is a concretization of g 
+every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">A primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to 'pick out' the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Conversations with Barry Smith, Werner Ceusters, Bjoern Peters, Michel Dumontier, Melanie Courtot, James Malone, Bill Hogan</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000235 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000235">
         <rdfs:label xml:lang="en">denoted by</rdfs:label>
         <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Mike Conlon</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">inverse of the relation &#39;denotes&#39;</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">inverse of the relation 'denotes'</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
     </owl:ObjectProperty>
     
@@ -216,7 +246,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002009">
         <rdfs:label>cell expresses</rdfs:label>
-        <obo:IAO_0000115>A relation that applies between a cell(c) and a gene(g) , where the process of &#39;transcription, DNA templated (GO_0006351)&#39; is occuring in in cell c and that process has input gene g.</obo:IAO_0000115>
+        <obo:IAO_0000115>A relation that applies between a cell(c) and a gene(g) , where the process of 'transcription, DNA templated (GO_0006351)' is occuring in in cell c and that process has input gene g.</obo:IAO_0000115>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002292"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
     </owl:ObjectProperty>
@@ -240,7 +270,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002204">
         <rdfs:label xml:lang="en">gene product of</rdfs:label>
-        <obo:IAO_0000115>definition &quot;x has gene product of y if and only if y is a gene (SO:0000704) that participates in some gene expression process (GO:0010467) where the output of that process is either y or something that is ribosomally translated from x&quot;</obo:IAO_0000115>
+        <obo:IAO_0000115>definition "x has gene product of y if and only if y is a gene (SO:0000704) that participates in some gene expression process (GO:0010467) where the output of that process is either y or something that is ribosomally translated from x"</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002330"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
@@ -411,7 +441,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
 
     <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
-        <rdfs:comment xml:lang="en">A definition of &quot;tranfers&quot; object property can be found in d-acts: http:purl.obolibrary.org/iao/d-acts.owl</rdfs:comment>
+        <rdfs:comment xml:lang="en">A definition of "tranfers" object property can be found in d-acts: http:purl.obolibrary.org/iao/d-acts.owl</rdfs:comment>
         <obo:IAO_0000115 xml:lang="en">a administrates b if c owns b and some rights and obligations grounded in the owning relation regarding b are transferred  from c to a.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
     </owl:ObjectProperty>
@@ -434,7 +464,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
         <rdfs:label xml:lang="en">entity</rdfs:label>
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">Entity doesn&#39;t have a closure axiom because the subclasses don&#39;t necessarily exhaust all possibilites. For example Werner Ceusters &#39;portions of reality&#39; include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, &#39;How to track absolutely everything&#39; at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">entity</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
@@ -453,7 +483,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</obo:IAO_0000116>
-        <obo:IAO_0000116 xml:lang="en">Continuant doesn&#39;t have a closure axiom because the subclasses don&#39;t necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster&#39;s other portions of reality, questions are raised as to whether universals are continuants</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">continuant</obo:IAO_0000111>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
@@ -948,7 +978,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_133335">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C/D box small nucleolar RNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_133334"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small nucleolar RNA that functions in the 2&#39;-O-ribose methylation of target RNA&#39;s. C/D box snoRNAs contain two short conserved sequence motifs, C (RUGAUGA) and D (CUGA), located near the 5&#39; and 3&#39; ends of the snoRNA, respectively.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small nucleolar RNA that functions in the 2'-O-ribose methylation of target RNA's. C/D box snoRNAs contain two short conserved sequence motifs, C (RUGAUGA) and D (CUGA), located near the 5' and 3' ends of the snoRNA, respectively.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -959,7 +989,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_133336">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H/ACA box small nucleolar RNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_133334"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small nucleolar RNA that functions in the pseudouridylation of target RNA&#39;s. H/ACA box snoRNAs are composed of conserved sequence motifs known as H box (ANANNA, where N represents any nucleotide) and the ACA box (ACA).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A small nucleolar RNA that functions in the pseudouridylation of target RNA's. H/ACA box snoRNAs are composed of conserved sequence motifs known as H box (ANANNA, where N represents any nucleotide) and the ACA box (ACA).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -1192,9 +1222,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_1359 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_1359">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3&#39;-phosphopolynucleotide</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3'-phosphopolynucleotide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule made up of nucleotide units and hydrolysable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), D-ribose or 2-deoxy-D-ribose and phosphoric acid with a phosphate group at the 3&#39;-end.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule made up of nucleotide units and hydrolysable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), D-ribose or 2-deoxy-D-ribose and phosphoric acid with a phosphate group at the 3'-end.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -1914,7 +1944,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_139320">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ds/ss telomeric DNA junction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The junction formed at the point where double-stranded telomeric DNA becomes a single-stranded G-rich telomeric DNA 3&#39; overhang.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The junction formed at the point where double-stranded telomeric DNA becomes a single-stranded G-rich telomeric DNA 3' overhang.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -1936,7 +1966,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_139356">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precursor messenger RNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immature or incompletely processed mRNA molecule that needs to be processed before it becomes a fully functional mature mRNA. Pre-mRNA is synthesized from a DNA template in the cell nucleus by transcription and lacks structures that the mRNA requires. First all introns have to be removed from the transcribed RNA through a process known as splicing. Before the RNA is ready for export, a Poly(A)tail is added to the 3&#39; end of the RNA and a 5&#39; cap is added to the 5&#39; end.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immature or incompletely processed mRNA molecule that needs to be processed before it becomes a fully functional mature mRNA. Pre-mRNA is synthesized from a DNA template in the cell nucleus by transcription and lacks structures that the mRNA requires. First all introns have to be removed from the transcribed RNA through a process known as splicing. Before the RNA is ready for export, a Poly(A)tail is added to the 3' end of the RNA and a 5' cap is added to the 5' end.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -2146,10 +2176,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_140626 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_140626">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA(n)-3&#39;-adenine ribonucleotide polyanion</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA(n)-3'-adenine ribonucleotide polyanion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60164"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ionic polymer obtained by global deprotonation of the phosphate OH groups of any RNA linked to an adenine ribonucleotide in 3&#39;; major structure at pH 7.3.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ionic polymer obtained by global deprotonation of the phosphate OH groups of any RNA linked to an adenine ribonucleotide in 3'; major structure at pH 7.3.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -2158,10 +2188,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_140627 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_140627">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA(n)-3&#39;-uridine ribonucleotide polyanion</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA(n)-3'-uridine ribonucleotide polyanion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60164"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ionic polymer obtained by global deprotonation of the phosphate OH groups of any RNA linked to an uridine ribonucleotide in 3&#39;; major structure at pH 7.3.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ionic polymer obtained by global deprotonation of the phosphate OH groups of any RNA linked to an uridine ribonucleotide in 3'; major structure at pH 7.3.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -9901,9 +9931,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_149721 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_149721">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA containing 2&#39;-O-methylguanosine</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA containing 2'-O-methylguanosine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ribonucleic acid that is ribosomal RNA (rRNA) in which one of the RNA nucleotides is 2&#39;-O-methylguanosine 5&#39;-monophosphate.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ribonucleic acid that is ribosomal RNA (rRNA) in which one of the RNA nucleotides is 2'-O-methylguanosine 5'-monophosphate.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -9912,9 +9942,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_149722 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_149722">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA containing 2&#39;-O-methyluridine</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA containing 2'-O-methyluridine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ribonucleic acid that is ribosomal RNA (rRNA) in which one of the RNA nucleotides is 2&#39;-O-methyluridine 5&#39;-monophosphate.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ribonucleic acid that is ribosomal RNA (rRNA) in which one of the RNA nucleotides is 2'-O-methyluridine 5'-monophosphate.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -19278,9 +19308,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_15731 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15731">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA containing 2&#39;-O-methyladenosine</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rRNA containing 2'-O-methyladenosine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ribonucleic acid that is ribosomal RNA (rRNA) in which one of the RNA nucleotides is 2&#39;-O-methyladenosine 5&#39;-monophosphate.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ribonucleic acid that is ribosomal RNA (rRNA) in which one of the RNA nucleotides is 2'-O-methyladenosine 5'-monophosphate.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -19892,7 +19922,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_16701 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16701">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleoside 5&#39;-phosphate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleoside 5'-phosphate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29075"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A ribosyl or deoxyribosyl derivative of a pyrimidine or purine base in which C-5 of the ribose ring is mono-, di-, tri- or tetra-phosphorylated.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -20310,7 +20340,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_17326 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17326">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleoside 5&#39;-triphoshate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleoside 5'-triphoshate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25608"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -20471,7 +20501,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_176872 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_176872">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha,alpha&#39;-Trehalose 6-palmitate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha,alpha'-Trehalose 6-palmitate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16412"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -20623,7 +20653,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17843">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transfer RNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded RNA molecule containing about 70-90 nucleotides, folded by intrastrand base pairing into a characteristic secondary (&#39;cloverleaf&#39;) structure that carries a specific amino acid and matches it to its corresponding codon on an mRNA during protein synthesis.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded RNA molecule containing about 70-90 nucleotides, folded by intrastrand base pairing into a characteristic secondary ('cloverleaf') structure that carries a specific amino acid and matches it to its corresponding codon on an mRNA during protein synthesis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -20632,10 +20662,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_17851 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17851">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m(7)G(5&#39;)pppAm</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m(7)G(5')pppAm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33699"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37045"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mRNA containing a 2&#39;-O-methyladenosine cap.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mRNA containing a 2'-O-methyladenosine cap.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -20644,9 +20674,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_17894 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17894">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m(7)G(5&#39;)pppm(6)Am</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m(7)G(5')pppm(6)Am</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33699"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mRNA containing an N(6),2&#39;-O-dimethyladenosine cap.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mRNA containing an N(6),2'-O-dimethyladenosine cap.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -20708,7 +20738,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18059">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lipid</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&#39;Lipids&#39; is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">'Lipids' is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -20967,7 +20997,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_18250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18250">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondroitin 4&#39;-sulfate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondroitin 4'-sulfate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37397"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chondroitin sulfate in which the site of sulfation is carbon 4 of the N-acetylgalactosamine (GalNAc) sugar.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -21083,7 +21113,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_18296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18296">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondroitin 6&#39;-sulfate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondroitin 6'-sulfate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37397"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chondroitin sulfate in which the site of sulfation is carbon 6 of the N-acetylgalactosamine (GalNAc) sugar.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -21094,9 +21124,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_18331 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18331">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">keratan 6&#39;-sulfate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">keratan 6'-sulfate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60924"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A keratan sulfate with random sulfation at the 6&#39;-position.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A keratan sulfate with random sulfation at the 6'-position.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -21198,7 +21228,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_184183 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_184183">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butyl 4&#39;-O-butanoyl-6-O-hexadecanoyl-neohesperidoside</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Butyl 4'-O-butanoyl-6-O-hexadecanoyl-neohesperidoside</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16412"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -21260,7 +21290,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_186294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_186294">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha,alpha&#39;-Trehalose 6,6&#39;-dipalmitate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha,alpha'-Trehalose 6,6'-dipalmitate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16412"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -21302,7 +21332,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_188303 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_188303">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha,alpha&#39;-Trehalose 4,6-dioleate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha,alpha'-Trehalose 4,6-dioleate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16412"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -21406,7 +21436,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_19036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_19036">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondroitin 4&#39;-sulfate 1-(6&#39;-L-aspartate)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chondroitin 4'-sulfate 1-(6'-L-aspartate)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18250"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -21812,9 +21842,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_1981 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_1981">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5&#39;-phosphopolynucleotide</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5'-phosphopolynucleotide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide which has a phosphate group at the 5&#39;-terminus.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide which has a phosphate group at the 5'-terminus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -22511,7 +22541,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_200793 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_200793">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maytansinol-9-methyl ether-3-3&#39;-methylbutyrate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maytansinol-9-methyl ether-3-3'-methylbutyrate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18331"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52898"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -22727,7 +22757,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_201535 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_201535">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ansamitocin P 3&#39;</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ansamitocin P 3'</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18331"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52898"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -22904,7 +22934,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_202043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_202043">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trehalose-6,6&#39;-dicorynomycolate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trehalose-6,6'-dicorynomycolate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16412"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -30081,7 +30111,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26188">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyketide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural and synthetic compounds containing alternating carbonyl and methylene groups (&#39;beta-polyketones&#39;), biogenetically derived from repeated condensation of acetyl coenzyme A (via malonyl coenzyme A), and usually the compounds derived from them by further condensations, etc. Considered by many to be synonymous with the less frequently used terms acetogenins and ketides.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natural and synthetic compounds containing alternating carbonyl and methylene groups ('beta-polyketones'), biogenetically derived from repeated condensation of acetyl coenzyme A (via malonyl coenzyme A), and usually the compounds derived from them by further condensations, etc. Considered by many to be synonymous with the less frequently used terms acetogenins and ketides.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -32380,7 +32410,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3435">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carrageenan</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37944"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A family of sulfated polysaccharides extracted from red seaweeds. The name is derived from a common name of red algae Chondrus crispus, &quot;carrageen moss&quot; (Irish moss).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A family of sulfated polysaccharides extracted from red seaweeds. The name is derived from a common name of red algae Chondrus crispus, "carrageen moss" (Irish moss).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -32652,7 +32682,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35381">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monosaccharide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent monosaccharides are polyhydroxy aldehydes H[CH(OH)]nC(=O)H or polyhydroxy ketones H-[CHOH]n-C(=O)[CHOH]m-H with three or more carbon atoms. The generic term &#39;monosaccharide&#39; (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent monosaccharides are polyhydroxy aldehydes H[CH(OH)]nC(=O)H or polyhydroxy ketones H-[CHOH]n-C(=O)[CHOH]m-H with three or more carbon atoms. The generic term 'monosaccharide' (as opposed to oligosaccharide or polysaccharide) denotes a single unit, without glycosidic connection to other such units. It includes aldoses, dialdoses, aldoketoses, ketoses and diketoses, as well as deoxy sugars, provided that the parent compound has a (potential) carbonyl group.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -32686,7 +32716,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic disulfide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48343"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds of structure RSSR in which R and R&#39; are organic groups.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds of structure RSSR in which R and R' are organic groups.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -33028,7 +33058,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_37015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37015">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleoside 5&#39;-phosphate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleoside 5'-phosphate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16701"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26561"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -33039,7 +33069,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_37045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37045">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purine ribonucleoside 5&#39;-triphosphate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">purine ribonucleoside 5'-triphosphate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26398"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26400"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37076"/>
@@ -33051,7 +33081,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_37076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37076">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleoside 5&#39;-triphosphate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ribonucleoside 5'-triphosphate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37015"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
@@ -33074,7 +33104,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37164">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homopolysaccharide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18154"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycans composed of a single type of monosaccharide residue. They are named by replacing the ending &#39;-ose&#39; of the sugar by &#39;-an&#39;.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glycans composed of a single type of monosaccharide residue. They are named by replacing the ending '-ose' of the sugar by '-an'.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -33815,7 +33845,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48010">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locked nucleic acid</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleic acid polymers where the residues contain &#39;locked&#39; deoxyribose units and are linked by phosphodiester bonds. The deoxyribose unit conformation is &#39;locked&#39; by a 2&#39;-C,4&#39;-C-oxymethylene link.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleic acid polymers where the residues contain 'locked' deoxyribose units and are linked by phosphodiester bonds. The deoxyribose unit conformation is 'locked' by a 2'-C,4'-C-oxymethylene link.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -33938,7 +33968,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48343">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disulfide</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26835"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds of structure RSSR&#39;.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds of structure RSSR'.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -35540,7 +35570,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_53313 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53313">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[(6,6&#39;-bibenzoxazole)-2,2&#39;-diyl-1,4-phenylene] macromolecule</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[(6,6'-bibenzoxazole)-2,2'-diyl-1,4-phenylene] macromolecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53312"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of repeating 6-(1,3-benzoxazol-6-yl)-2-phenyl-1,3-benzoxazole units.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -35562,7 +35592,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_53315 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53315">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[9,9-bis((6&#39;-N,N,N-trimethylammonium)hexyl)fluorenylene phenylene dibromide] macromolecule</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[9,9-bis((6'-N,N,N-trimethylammonium)hexyl)fluorenylene phenylene dibromide] macromolecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53718"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of repeating trimethyl(6-{2-phenyl-9-[6-(trimethylazaniumyl)hexyl]-9H-fluoren-9-yl}hexyl)azanium dibromideyl}hexyl)azanium units.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -35639,9 +35669,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_53322 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53322">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(2,2&#39;-bithiophene-5,5&#39;-diyl) macromolecule</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(2,2'-bithiophene-5,5'-diyl) macromolecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53222"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of 2,2&#39;-bithiophene units linked at the 5- and 5&#39;-postions.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of 2,2'-bithiophene units linked at the 5- and 5'-postions.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -35786,9 +35816,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_53347 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53347">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(9,9&#39;-dioctylfluorene) macromolecule</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(9,9'-dioctylfluorene) macromolecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53718"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of repeating 9,9&#39;-dioctylfluorene-2,7-diyl units.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of repeating 9,9'-dioctylfluorene-2,7-diyl units.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -35833,7 +35863,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_53357 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53357">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[2-methoxy-5-(2&#39;-ethyl-hexyloxy)-p-phenylenevinylene] macromolecule</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[2-methoxy-5-(2'-ethyl-hexyloxy)-p-phenylenevinylene] macromolecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53260"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of repeating 1-((2-ethylhexyl)oxy)-4-methoxy-2-vinylbenzene units.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -36546,7 +36576,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_53446 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53446">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[3-(3&#39;-N,N,N-triethylamino-1-propyloxy)-4-methylthiophene-2,5-diyl hydrochloride] macromolecule</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[3-(3'-N,N,N-triethylamino-1-propyloxy)-4-methylthiophene-2,5-diyl hydrochloride] macromolecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35273"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53222"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of repeating triethyl({3-[(4-methylthiophen-3-yl)oxy]propyl})azanium chloride units.</obo:IAO_0000115>
@@ -37336,7 +37366,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53625">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(spiropyran methacrylate) macromolecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51134"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of repeating 1-methyl-1-{[(1&#39;,3&#39;,3&#39;-trimethyl-1&#39;,3&#39;-dihydrospiro[chromene-2,2&#39;-indol]-6-yl)oxy]carbonyl}ethylene units.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of repeating 1-methyl-1-{[(1',3',3'-trimethyl-1',3'-dihydrospiro[chromene-2,2'-indol]-6-yl)oxy]carbonyl}ethylene units.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -37591,9 +37621,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_53718 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_53718">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(9,9&#39;-fluorene) macromolecule</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(9,9'-fluorene) macromolecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53314"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of repeating substituted or unsubstituted fluorene units linked at the 9- and 9&#39;-positions.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of repeating substituted or unsubstituted fluorene units linked at the 9- and 9'-positions.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -37821,7 +37851,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_55314 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_55314">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(N,N&#39;-methylenebisacrylamide-co-methacrylic acid)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(N,N'-methylenebisacrylamide-co-methacrylic acid)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53310"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A copolymer composed of repeating N-(propanamidomethyl)propanamide and 2-methylpropanoic acid units.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -37832,7 +37862,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_55315 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_55315">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(N,N&#39;-methylenebisacrylamide) macromolecule</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(N,N'-methylenebisacrylamide) macromolecule</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37997"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A macromolecule composed of N-(propanamidomethyl)propanamide units.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
@@ -37854,10 +37884,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_55485 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_55485">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dermatan 6&#39;-sulfate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dermatan 6'-sulfate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35722"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37395"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mucopolysaccharide consisting of dermatan with sulfate substituents at the 6&#39;-position of the N-acetylgalactosamines.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mucopolysaccharide consisting of dermatan with sulfate substituents at the 6'-position of the N-acetylgalactosamines.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -38350,7 +38380,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59769">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetal</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organooxygen compound having the structure RR&#39;C(OR&#39;&#39;)(OR&#39;&#39;&#39;) (R&#39;&#39;, R&#39;&#39;&#39; =/= H). Mixed acetals have R&#39;&#39; and R&#39;&#39;&#39; groups which differ.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organooxygen compound having the structure RR'C(OR'')(OR''') (R'', R''' =/= H). Mixed acetals have R'' and R''' groups which differ.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -39064,7 +39094,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly-ADP-D-ribose</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33694"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_65212"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biomacromolecule that is composed of ADP-D-ribose units linked through glycosidic ribose-ribose 1&#39;&#39;-&gt;2&#39; bonds. Branching may also occur.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biomacromolecule that is composed of ADP-D-ribose units linked through glycosidic ribose-ribose 1''-&gt;2' bonds. Branching may also occur.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -40068,7 +40098,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64645">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amyloid-beta</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15841"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A peptide of 36-43 amino acids that is processed from the amyloid precursor protein. Appears to be the main constituent of amyloid plaques (deposits found in the brains of Alzheimer&#39;s disease patients).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A peptide of 36-43 amino acids that is processed from the amyloid precursor protein. Appears to be the main constituent of amyloid plaques (deposits found in the brains of Alzheimer's disease patients).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -40531,7 +40561,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_71275">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-glycan derivative</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_65212"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The term used to refer to the &#39;carbohydrate&#39; portion of N-glycoproteins when attached to a nitrogen from asparagine or arginine side-chains, when this portion is a carbohydrate derivative.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The term used to refer to the 'carbohydrate' portion of N-glycoproteins when attached to a nitrogen from asparagine or arginine side-chains, when this portion is a carbohydrate derivative.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -40656,7 +40686,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lantibiotic</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15841"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25903"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A class of peptide antibiotic characterised by the presence of the rare thioether amino acids lanthionine or methyllanthionine, as well as the unsaturated amino acids dehydroalanine and 2-aminoisobutyric acid. In contrast to classical peptide antibiotics, lantibiotics are synthesised from precursor genes using the ribosomal pathway and the characteristic rare amino acids are introduced by posttranslational modification procedues into the lantibiotic precursor peptides (&#39;prepeptides&#39;). Lantibiotics are subdivided into two types: type A have long, flexible structures, while type B have rigid, globular structures.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A class of peptide antibiotic characterised by the presence of the rare thioether amino acids lanthionine or methyllanthionine, as well as the unsaturated amino acids dehydroalanine and 2-aminoisobutyric acid. In contrast to classical peptide antibiotics, lantibiotics are synthesised from precursor genes using the ribosomal pathway and the characteristic rare amino acids are introduced by posttranslational modification procedues into the lantibiotic precursor peptides ('prepeptides'). Lantibiotics are subdivided into two types: type A have long, flexible structures, while type B have rigid, globular structures.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -40844,7 +40874,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_73276">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(deoxyadenylic acid)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of 2&#39;-deoxyadenosine units connected via 3&#39;-&gt;5&#39; phosphodiester linkages. It is sometimes attached to eukaryotic messenger RNA and stabilizes the molecule before transport from the nucleus into the cytoplasm.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of 2'-deoxyadenosine units connected via 3'-&gt;5' phosphodiester linkages. It is sometimes attached to eukaryotic messenger RNA and stabilizes the molecule before transport from the nucleus into the cytoplasm.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -40855,7 +40885,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_73277">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(deoxycytidylic acid)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of 2&#39;-deoxycytidine units connected via 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of 2'-deoxycytidine units connected via 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -40866,7 +40896,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_73278">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(guanylic acid)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of guanosine units connected via 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of guanosine units connected via 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -40877,7 +40907,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_73279">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(uridylic acid)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of uridine units connected via 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of uridine units connected via 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -40888,7 +40918,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_73300">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(deoxythymidylic acid)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of 2&#39;-deoxythymidine units connected via 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of 2'-deoxythymidine units connected via 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41000,7 +41030,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ghrelin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15841"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25905"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 28-membered appetite-stimulating polypeptide consisting of Gly, Ser, Ser(octanoyl), Phe, Leu, Ser, Pro, Glu, His, Gln, Arg, Val, Gln, Gln, Arg, Lys, Glu, Ser, Lys, Lys, Pro, Pro, Ala, Lys, Leu, Gln, Pro and Arg residues joined in sequence. The O-n-octanoylation of the side-chain hydroxy group of serine-3 (Ser3) is essential for ghrelin&#39;s activity.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 28-membered appetite-stimulating polypeptide consisting of Gly, Ser, Ser(octanoyl), Phe, Leu, Ser, Pro, Glu, His, Gln, Arg, Val, Gln, Gln, Arg, Lys, Glu, Ser, Lys, Lys, Pro, Pro, Ala, Lys, Leu, Gln, Pro and Arg residues joined in sequence. The O-n-octanoylation of the side-chain hydroxy group of serine-3 (Ser3) is essential for ghrelin's activity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41012,7 +41042,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastrin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15841"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25905"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A family of gastrointestinal peptide hormones that stimulate the secretion of gastric acid. Gastrin is found primarily in three forms: gastrin-34 (&#39;big gastrin&#39;), gastrin-17 (&#39;little gastrin&#39;) and gastrin-14 (&#39;minigastrin&#39;).</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A family of gastrointestinal peptide hormones that stimulate the secretion of gastric acid. Gastrin is found primarily in three forms: gastrin-34 ('big gastrin'), gastrin-17 ('little gastrin') and gastrin-14 ('minigastrin').</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41066,9 +41096,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/CHEBI_75607 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75607">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(5-bromo-2&#39;-deoxyuridylic acid)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(5-bromo-2'-deoxyuridylic acid)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of 5-bromo-2&#39;-deoxyuridine units connected via 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of 5-bromo-2'-deoxyuridine units connected via 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41090,7 +41120,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75981">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[d(Tm(5)C)]</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75980"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating unit of thymidine and 5-methyldeoxycytidine residues, with all residues connected by 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating unit of thymidine and 5-methyldeoxycytidine residues, with all residues connected by 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41101,7 +41131,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_75982">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[d(GA)]</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75980"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating unit of deoxyguanosine and 5-methyldeoxyadenosine residues, with all residues connected by 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating unit of deoxyguanosine and 5-methyldeoxyadenosine residues, with all residues connected by 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41112,7 +41142,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76008">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[d(TC)]</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75980"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating unit of thymidine and deoxycytidine residues, with all residues connected by 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating unit of thymidine and deoxycytidine residues, with all residues connected by 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41123,7 +41153,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76011">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[d(TCC)]</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75980"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating sequence of one thymidine residue and two deoxycytidine residues, with all residues connected by 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating sequence of one thymidine residue and two deoxycytidine residues, with all residues connected by 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41134,7 +41164,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76012">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[d(GGA)]</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75980"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating sequence of two deoxyguanosine residues and one deoxycytosine residue, with all residues connected by 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating sequence of two deoxyguanosine residues and one deoxycytosine residue, with all residues connected by 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41145,7 +41175,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76020">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[d(TTC)]</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75980"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating sequence of two thymidine residues and one deoxycytidine residue, with all residues connected by 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating sequence of two thymidine residues and one deoxycytidine residue, with all residues connected by 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41156,7 +41186,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76021">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly[d(GAA)]</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75980"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating sequence of one deoxyguanosine residue and two deoxycytosine residues, with all residues connected by 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating sequence of one deoxyguanosine residue and two deoxycytosine residues, with all residues connected by 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41167,7 +41197,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76043">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(deoxyguanylic acid)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of 2&#39;-deoxyguanosine units connected via 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of 2'-deoxyguanosine units connected via 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41178,7 +41208,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76053">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">brominated poly[d(GC)]</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_75980"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating unit of brominated deoxyguanosine and deoxycytidine residues, with all residues connected by 3&#39;-&gt;5&#39; phosphodiester linkages.  The sites of bromination are at C-8 of guanine and C-5 of cytosine, although not all these sites are brominated, with bromination at the guanine C-8 predominating.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A single-stranded DNA polynucleotide consisting of a repeating unit of brominated deoxyguanosine and deoxycytidine residues, with all residues connected by 3'-&gt;5' phosphodiester linkages.  The sites of bromination are at C-8 of guanine and C-5 of cytosine, although not all these sites are brominated, with bromination at the guanine C-8 predominating.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41256,7 +41286,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76777">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(inosinic acid)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of inosine units connected via 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of inosine units connected via 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41278,7 +41308,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_76784">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(dA,dC)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_76783"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A DNA random copolymer in which the monomeric units are adenosine and cytidine residues connected via 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A DNA random copolymer in which the monomeric units are adenosine and cytidine residues connected via 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41622,7 +41652,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_78914">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-D-mannosyl-(1-&gt;2)-beta-D-mannosyl-(1-&gt;2)-beta-D-mannoside--copovidone glycoconjugate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53310"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A copolymer of beta-D-mannopyranosyl-(1-&gt;2)-beta-D-mannopyranosyl-(1-&gt;2)-alpha-D-mannopyranoside and copovidone and comprised of N-(2-{[beta-D-mannopyranosyl-(1-&gt;2)-beta-D-mannopyranosyl-(1-&gt;2)-alpha-D-mannopyranosyl]oxy}ethyl)-N&#39;-[(1-vinyl-1H-1,2,3-triazol-4-yl)methyl]pentanediamide, vinyl alcohol and N-vinyl-2-pyrrolidone units.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A copolymer of beta-D-mannopyranosyl-(1-&gt;2)-beta-D-mannopyranosyl-(1-&gt;2)-alpha-D-mannopyranoside and copovidone and comprised of N-(2-{[beta-D-mannopyranosyl-(1-&gt;2)-beta-D-mannopyranosyl-(1-&gt;2)-alpha-D-mannopyranosyl]oxy}ethyl)-N'-[(1-vinyl-1H-1,2,3-triazol-4-yl)methyl]pentanediamide, vinyl alcohol and N-vinyl-2-pyrrolidone units.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -41633,7 +41663,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_78916">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-D-arabinosyl-(1-&gt;2)-alpha-D-arabinosyl-(1-&gt;3)-[beta-D-arabinosyl-(1-&gt;2)-alpha-D-arabinosyl-(1-&gt;5)]-alpha-Darabinosyl-(1-&gt;5)-alpha-D-arabinoside--copovidone glycoconjugate</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53310"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A copolymer of beta-D-arabinofuranosyl-(1-&gt;2)-alpha-D-arabinofuranosyl-(1-&gt;3)-[beta-D-arabinofuranosyl-(1-&gt;2)-alpha-D-arabinofuranosyl-(1-&gt;5)]-alpha-Darabinofuranosyl-(1-&gt;5)-alpha-D-arabinofuranoside and copovidone and comprised of N-(2-{[beta-D-arabinofuranosyl-(1-&gt;2)-alpha-D-arabinofuranosyl-(1-&gt;3)-[beta-D-arabinofuranosyl-(1-&gt;2)-alpha-D-arabinofuranosyl-(1-&gt;5)]-alpha-D-arabinofuranosyl-(1-&gt;5)-alpha-D-arabinofuranosyl]oxy}octyl)-N&#39;-[(1-vinyl-1H-1,2,3-triazol-4-yl)methyl]pentanediamide, vinyl alcohol and N-vinyl-2-pyrrolidone units.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A copolymer of beta-D-arabinofuranosyl-(1-&gt;2)-alpha-D-arabinofuranosyl-(1-&gt;3)-[beta-D-arabinofuranosyl-(1-&gt;2)-alpha-D-arabinofuranosyl-(1-&gt;5)]-alpha-Darabinofuranosyl-(1-&gt;5)-alpha-D-arabinofuranoside and copovidone and comprised of N-(2-{[beta-D-arabinofuranosyl-(1-&gt;2)-alpha-D-arabinofuranosyl-(1-&gt;3)-[beta-D-arabinofuranosyl-(1-&gt;2)-alpha-D-arabinofuranosyl-(1-&gt;5)]-alpha-D-arabinofuranosyl-(1-&gt;5)-alpha-D-arabinofuranosyl]oxy}octyl)-N'-[(1-vinyl-1H-1,2,3-triazol-4-yl)methyl]pentanediamide, vinyl alcohol and N-vinyl-2-pyrrolidone units.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -42151,7 +42181,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_84498">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">poly(cytidylic acid)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15986"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of cytidine units connected via 3&#39;-&gt;5&#39; phosphodiester linkages.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A polynucleotide comprised of cytidine units connected via 3'-&gt;5' phosphodiester linkages.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -43072,7 +43102,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000616">
         <rdfs:label xml:lang="en">AA variant in SARS-CoV-2 NS3 protein</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000237"/>
-        <obo:IAO_0000118>AA variant in SARS-CoV-2 NS3a protein, AA variant in ORF3a protein (SARS-CoV-2)&#39;</obo:IAO_0000118>
+        <obo:IAO_0000118>AA variant in SARS-CoV-2 NS3a protein, AA variant in ORF3a protein (SARS-CoV-2)'</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
     </owl:Class>
     
@@ -44949,10 +44979,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/GO_0000964 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000964">
-        <rdfs:label>mitochondrial RNA 5&#39;-end processing</rdfs:label>
+        <rdfs:label>mitochondrial RNA 5'-end processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000963"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000966"/>
-        <obo:IAO_0000115>Any process involved in forming the mature 5&#39; end of an RNA molecule transcribed from a mitochondrial genome; occurs in the mitochondrion.</obo:IAO_0000115>
+        <obo:IAO_0000115>Any process involved in forming the mature 5' end of an RNA molecule transcribed from a mitochondrial genome; occurs in the mitochondrion.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -44961,10 +44991,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/GO_0000965 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000965">
-        <rdfs:label>mitochondrial RNA 3&#39;-end processing</rdfs:label>
+        <rdfs:label>mitochondrial RNA 3'-end processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000963"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031123"/>
-        <obo:IAO_0000115>Any process involved in forming the mature 3&#39; end of an RNA molecule transcribed from a mitochondrial genome; occurs in the mitochondrion.</obo:IAO_0000115>
+        <obo:IAO_0000115>Any process involved in forming the mature 3' end of an RNA molecule transcribed from a mitochondrial genome; occurs in the mitochondrion.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -44973,9 +45003,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/GO_0000966 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000966">
-        <rdfs:label>RNA 5&#39;-end processing</rdfs:label>
+        <rdfs:label>RNA 5'-end processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006396"/>
-        <obo:IAO_0000115>Any process involved in forming the mature 5&#39; end of an RNA molecule.</obo:IAO_0000115>
+        <obo:IAO_0000115>Any process involved in forming the mature 5' end of an RNA molecule.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -44987,7 +45017,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>RNA methylation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009451"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043414"/>
-        <obo:IAO_0000115>Posttranscriptional addition of a methyl group to either a nucleotide or 2&#39;-O ribose in a polyribonucleotide. Usually uses S-adenosylmethionine as a cofactor.</obo:IAO_0000115>
+        <obo:IAO_0000115>Posttranscriptional addition of a methyl group to either a nucleotide or 2'-O ribose in a polyribonucleotide. Usually uses S-adenosylmethionine as a cofactor.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45022,7 +45052,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>cytokine production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010467"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032501"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of a cytokine due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45104,7 +45134,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>cytokine production involved in immune response</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001816"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002440"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of a cytokine due to biosynthesis or secretion following a cellular stimulus contributing to an immune response, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45117,7 +45147,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>B cell cytokine production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002367"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019724"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>Any process that contributes to cytokine production by a B cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45131,7 +45161,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002367"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002456"/>
         <obo:IAO_0000115>Any process that contributes to cytokine production by a T cell.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45143,7 +45173,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>natural killer cell cytokine production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002228"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002367"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>Any process that contributes to cytokine production by a natural killer cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45157,7 +45187,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002367"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002443"/>
         <obo:IAO_0000115>Any process that contributes to cytokine production by a dendritic cell.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45171,7 +45201,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002444"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0061082"/>
         <obo:IAO_0000115>Any process that contributes to cytokine production by a myeloid dendritic cell.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45182,7 +45212,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002373">
         <rdfs:label>plasmacytoid dendritic cell cytokine production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002371"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>Any process that contributes to cytokine production by a plasmacytoid dendritic cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45194,7 +45224,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002376">
         <rdfs:label>immune system process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <rdfs:comment>Note that this term is a direct child of &#39;biological_process ; GO:0008150&#39; because some immune system processes are types of cellular process (GO:0009987), whereas others are types of multicellular organism process (GO:0032501).</rdfs:comment>
+        <rdfs:comment>Note that this term is a direct child of 'biological_process ; GO:0008150' because some immune system processes are types of cellular process (GO:0009987), whereas others are types of multicellular organism process (GO:0032501).</rdfs:comment>
         <obo:IAO_0000115>Any process involved in the development or functioning of the immune system, an organismal system for calibrated responses to potential internal or invasive threats.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45206,7 +45236,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002377">
         <rdfs:label>immunoglobulin production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002440"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of immunoglobulin due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45219,7 +45249,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>immunoglobulin production involved in immunoglobulin-mediated immune response</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002377"/>
         <obo:IAO_0000115>The appearance of immunoglobulin due to biosynthesis or secretion following a cellular stimulus during an immune response, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45230,7 +45260,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002426">
         <rdfs:label>immunoglobulin production in mucosal tissue</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002381"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The synthesis and release of immunoglobulin in the mucosal tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45244,7 +45274,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002376"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010467"/>
         <obo:IAO_0000115>The synthesis or release of any molecular mediator of the immune response, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45335,7 +45365,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>antimicrobial peptide production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002440"/>
         <obo:IAO_0000115>The synthesis or release of an antimicrobial peptide during an immune response, resulting in an increase in intracellular or extracellular levels. Such peptides may have protective properties against bacteria, fungi, viruses, or protozoa.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45346,7 +45376,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002778">
         <rdfs:label>antibacterial peptide production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002775"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The synthesis or release of an antibacterial peptide during an immune response, resulting in an increase in intracellular or extracellular levels.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45359,7 +45389,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>antifungal peptide production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002775"/>
         <obo:IAO_0000115>The synthesis or release of an antifungal peptide during an immune response, resulting in an increase in intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45371,7 +45401,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>tRNA threonylcarbamoyladenosine modification</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006400"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0070525"/>
-        <obo:IAO_0000115>The attachment of a carbonyl group and a threonine to the amino group of the adenine residue immediately 3&#39; of the anticodon, in tRNAs that decode ANN codons (where N is any base).</obo:IAO_0000115>
+        <obo:IAO_0000115>The attachment of a carbonyl group and a threonine to the amino group of the adenine residue immediately 3' of the anticodon, in tRNAs that decode ANN codons (where N is any base).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45381,7 +45411,7 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674">
         <rdfs:label>molecular_function</rdfs:label>
-        <rdfs:comment>Note that, in addition to forming the root of the molecular function ontology, this term is recommended for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code &#39;no data&#39; (ND), is used to indicate this. Despite its name, this is not a type of &#39;function&#39; in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.</rdfs:comment>
+        <rdfs:comment>Note that, in addition to forming the root of the molecular function ontology, this term is recommended for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this. Despite its name, this is not a type of 'function' in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex.</rdfs:comment>
         <obo:IAO_0000115>A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45507,7 +45537,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>tRNA modification</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008033"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009451"/>
-        <rdfs:comment>The term &#39;RNA editing&#39; (GO:0016547) was merged into &#39;RNA modification&#39; (GO:0009451) on the basis of statements in the preface of Modification and Editing of RNA (ISBN:1555811337) that there is no clear distinction between modification and editing. Parallel changes were made for substrate (e.g. tRNA, rRNA, etc.) specific child terms of &#39;RNA editing&#39;.</rdfs:comment>
+        <rdfs:comment>The term 'RNA editing' (GO:0016547) was merged into 'RNA modification' (GO:0009451) on the basis of statements in the preface of Modification and Editing of RNA (ISBN:1555811337) that there is no clear distinction between modification and editing. Parallel changes were made for substrate (e.g. tRNA, rRNA, etc.) specific child terms of 'RNA editing'.</rdfs:comment>
         <obo:IAO_0000115>The covalent alteration of one or more nucleotides within a tRNA molecule to produce a tRNA molecule with a sequence that differs from that coded genetically.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45519,7 +45549,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006508">
         <rdfs:label>proteolysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019538"/>
-        <rdfs:comment>This term was intentionally placed under &#39;protein metabolic process ; GO:0019538&#39; rather than &#39;protein catabolic process ; GO:0030163&#39; to cover all processes centered on breaking peptide bonds, including those involved in protein processing.</rdfs:comment>
+        <rdfs:comment>This term was intentionally placed under 'protein metabolic process ; GO:0019538' rather than 'protein catabolic process ; GO:0030163' to cover all processes centered on breaking peptide bonds, including those involved in protein processing.</rdfs:comment>
         <obo:IAO_0000115>The hydrolysis of proteins into smaller polypeptides and/or amino acids by cleavage of their peptide bonds.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45601,7 +45631,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
         <rdfs:label>biological_process</rdfs:label>
         <obo:IAO_0000115>A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
-        <rdfs:comment>Note that, in addition to forming the root of the biological process ontology, this term is recommended for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code &#39;no data&#39; (ND), is used to indicate this.</rdfs:comment>
+        <rdfs:comment>Note that, in addition to forming the root of the biological process ontology, this term is recommended for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45649,7 +45679,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>RNA modification</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016070"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043412"/>
-        <rdfs:comment>The term &#39;RNA editing&#39; (GO:0016547) was merged into &#39;RNA modification&#39; (GO:0009451) on the basis of statements in the preface of Modification and Editing of RNA (ISBN:1555811337) that there is no clear distinction between modification and editing.</rdfs:comment>
+        <rdfs:comment>The term 'RNA editing' (GO:0016547) was merged into 'RNA modification' (GO:0009451) on the basis of statements in the preface of Modification and Editing of RNA (ISBN:1555811337) that there is no clear distinction between modification and editing.</rdfs:comment>
         <obo:IAO_0000115>The covalent alteration of one or more nucleotides within an RNA molecule to produce an RNA molecule with a sequence that differs from that coded genetically.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45697,7 +45727,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010467">
         <rdfs:label>gene expression</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009059"/>
-        <obo:IAO_0000115>The process in which a gene&#39;s sequence is converted into a mature gene product (protein or RNA). This includes the production of an RNA transcript and its processing, as well as translation and maturation for protein-coding genes.</obo:IAO_0000115>
+        <obo:IAO_0000115>The process in which a gene's sequence is converted into a mature gene product (protein or RNA). This includes the production of an RNA transcript and its processing, as well as translation and maturation for protein-coding genes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45720,7 +45750,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>macrophage cytokine production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0061082"/>
         <obo:IAO_0000115>The appearance of a macrophage cytokine due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45731,8 +45761,8 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016032">
         <rdfs:label>viral process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <rdfs:comment>See also the biological process terms &#39;viral infectious cycle ; GO:0019058&#39; and &#39;lysogeny ; GO:0030069&#39;.</rdfs:comment>
-        <obo:IAO_0000115>A multi-organism process in which a virus is a participant. The other participant is the host. Includes infection of a host cell, replication of the viral genome, and assembly of progeny virus particles. In some cases the viral genetic material may integrate into the host genome and only subsequently, under particular circumstances, &#39;complete&#39; its life cycle.</obo:IAO_0000115>
+        <rdfs:comment>See also the biological process terms 'viral infectious cycle ; GO:0019058' and 'lysogeny ; GO:0030069'.</rdfs:comment>
+        <obo:IAO_0000115>A multi-organism process in which a virus is a participant. The other participant is the host. Includes infection of a host cell, replication of the viral genome, and assembly of progeny virus particles. In some cases the viral genetic material may integrate into the host genome and only subsequently, under particular circumstances, 'complete' its life cycle.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45754,7 +45784,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016070">
         <rdfs:label>RNA metabolic process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0090304"/>
-        <obo:IAO_0000115>The cellular chemical reactions and pathways involving RNA, ribonucleic acid, one of the two main type of nucleic acid, consisting of a long, unbranched macromolecule formed from ribonucleotides joined in 3&#39;,5&#39;-phosphodiester linkage.</obo:IAO_0000115>
+        <obo:IAO_0000115>The cellular chemical reactions and pathways involving RNA, ribonucleic acid, one of the two main type of nucleic acid, consisting of a long, unbranched macromolecule formed from ribonucleotides joined in 3',5'-phosphodiester linkage.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45765,7 +45795,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016071">
         <rdfs:label>mRNA metabolic process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016070"/>
-        <obo:IAO_0000115>The chemical reactions and pathways involving mRNA, messenger RNA, which is responsible for carrying the coded genetic &#39;message&#39;, transcribed from DNA, to sites of protein assembly at the ribosomes.</obo:IAO_0000115>
+        <obo:IAO_0000115>The chemical reactions and pathways involving mRNA, messenger RNA, which is responsible for carrying the coded genetic 'message', transcribed from DNA, to sites of protein assembly at the ribosomes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45845,9 +45875,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/GO_0031123 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031123">
-        <rdfs:label>RNA 3&#39;-end processing</rdfs:label>
+        <rdfs:label>RNA 3'-end processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006396"/>
-        <obo:IAO_0000115>Any process involved in forming the mature 3&#39; end of an RNA molecule.</obo:IAO_0000115>
+        <obo:IAO_0000115>Any process involved in forming the mature 3' end of an RNA molecule.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45856,10 +45886,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/GO_0031124 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031124">
-        <rdfs:label>mRNA 3&#39;-end processing</rdfs:label>
+        <rdfs:label>mRNA 3'-end processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006397"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031123"/>
-        <obo:IAO_0000115>Any process involved in forming the mature 3&#39; end of an mRNA molecule.</obo:IAO_0000115>
+        <obo:IAO_0000115>Any process involved in forming the mature 3' end of an mRNA molecule.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45961,7 +45991,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032606">
         <rdfs:label>type I interferon production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001816"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of type I interferon due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels. Type I interferons include the interferon-alpha, beta, delta, episilon, zeta, kappa, tau, and omega gene families.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -45974,7 +46004,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>interferon-alpha production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032606"/>
         <obo:IAO_0000115>The appearance of interferon-alpha due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -45986,7 +46016,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>interferon-beta production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032606"/>
         <obo:IAO_0000115>The appearance of interferon-beta due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -46316,7 +46346,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032639">
         <rdfs:label>TRAIL production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071706"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of TRAIL due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -46328,7 +46358,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032640">
         <rdfs:label>tumor necrosis factor production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071706"/>
-        <rdfs:comment>Note that this term refers only to the specific, original &#39;tumor necrosis factor&#39; protein (TNF) and not other members of the tumor necrosis factor superfamily (those with the gene symbol root &#39;TNFSF&#39;). That this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term refers only to the specific, original 'tumor necrosis factor' protein (TNF) and not other members of the tumor necrosis factor superfamily (those with the gene symbol root 'TNFSF'). That this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of tumor necrosis factor due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels. Tumor necrosis factor is an inflammatory cytokine produced by macrophages/monocytes during acute inflammation and which is responsible for a diverse range of signaling events within cells, leading to necrosis or apoptosis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -46341,7 +46371,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>lymphotoxin A production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019538"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071706"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The chemical reactions and pathways resulting in the formation of the cytokine lymphotoxin A.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -46353,7 +46383,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032762">
         <rdfs:label>mast cell cytokine production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0061082"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>Any process that contributes to cytokine production by a mast cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -46420,7 +46450,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034343">
         <rdfs:label>type III interferon production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001816"/>
-        <rdfs:comment>Note that IL-28A, IL-28B, and IL-29 are types of interferon-lambda. This term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that IL-28A, IL-28B, and IL-29 are types of interferon-lambda. This term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of type III interferon due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels. Interferon lambda is the only member of the type III interferon found so far.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -46454,7 +46484,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0035743">
         <rdfs:label>CD4-positive, alpha-beta T cell cytokine production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002369"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>Any process that contributes to cytokine production by a CD4-positive, alpha-beta T cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -46466,7 +46496,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0035744">
         <rdfs:label>T-helper 1 cell cytokine production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0035743"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>Any process that contributes to cytokine production by a T-helper 1 cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -46478,7 +46508,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0035745">
         <rdfs:label>T-helper 2 cell cytokine production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0035743"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>Any process that contributes to cytokine production by a T-helper 2 cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -46491,7 +46521,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>granzyme A production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002440"/>
         <obo:IAO_0000115>The appearance of granzyme A due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -46513,7 +46543,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0035944">
         <rdfs:label>perforin production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002440"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of a perforin protein due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -46550,7 +46580,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>granulysin production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002440"/>
         <obo:IAO_0000115>The appearance of granulysin due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -46611,10 +46641,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/GO_0042780 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042780">
-        <rdfs:label>tRNA 3&#39;-end processing</rdfs:label>
+        <rdfs:label>tRNA 3'-end processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008033"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031123"/>
-        <obo:IAO_0000115>The process in which the 3&#39; end of a pre-tRNA molecule is converted to that of a mature tRNA.</obo:IAO_0000115>
+        <obo:IAO_0000115>The process in which the 3' end of a pre-tRNA molecule is converted to that of a mature tRNA.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -46626,7 +46656,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>symbiont-mediated evasion of host immune response</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0052553"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0052572"/>
-        <obo:IAO_0000115>A process by which an organism avoids the effects of the host organism&#39;s immune response. The host is defined as the larger of the organisms involved in a symbiotic interaction.</obo:IAO_0000115>
+        <obo:IAO_0000115>A process by which an organism avoids the effects of the host organism's immune response. The host is defined as the larger of the organisms involved in a symbiotic interaction.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -46933,7 +46963,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0061082">
         <rdfs:label>myeloid leukocyte cytokine production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002367"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>Any process that contributes to cytokine production by a myeloid cell.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -47141,7 +47171,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>granzyme B production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002440"/>
         <obo:IAO_0000115>The appearance of granzyme B due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47153,7 +47183,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>tumor necrosis factor superfamily cytokine production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001816"/>
         <obo:IAO_0000115>The appearance of any member of the TNF superfamily due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47209,7 +47239,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0072535">
         <rdfs:label>tumor necrosis factor (ligand) superfamily member 11 production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071706"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of tumor necrosis factor superfamily member 11 (TNFSF11; RANKL) due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -47244,7 +47274,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>interleukin-28A production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034343"/>
         <obo:IAO_0000115>The appearance of interleukin-28A due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47255,7 +47285,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0072629">
         <rdfs:label>interleukin-28B production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034343"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of interleukin-28B due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -47268,7 +47298,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>interleukin-29 production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0034343"/>
         <obo:IAO_0000115>The appearance of interleukin-29 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47324,7 +47354,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>interferon-delta production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032606"/>
         <obo:IAO_0000115>The appearance of interferon-delta due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47335,7 +47365,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0072647">
         <rdfs:label>interferon-epsilon production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032606"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of interferon-epsilon due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -47347,7 +47377,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0072649">
         <rdfs:label>interferon-kappa production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032606"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of interferon-kappa due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -47360,7 +47390,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>interferon-tau production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032606"/>
         <obo:IAO_0000115>The appearance of interferon-tau due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47372,7 +47402,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>interferon-omega production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032606"/>
         <obo:IAO_0000115>The appearance of interferon-omega due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47384,7 +47414,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>mitochondrial tRNA threonylcarbamoyladenosine modification</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002949"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0070900"/>
-        <obo:IAO_0000115>The attachment of a carbonyl group and a threonine to the amino group of the adenine residue immediately 3&#39; of the anticodon, in mitochondrial tRNAs that decode ANN codons (where N is any base).</obo:IAO_0000115>
+        <obo:IAO_0000115>The attachment of a carbonyl group and a threonine to the amino group of the adenine residue immediately 3' of the anticodon, in mitochondrial tRNAs that decode ANN codons (where N is any base).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47433,7 +47463,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>platelet-derived growth factor production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001816"/>
         <obo:IAO_0000115>The appearance of any platelet-derived growth factor due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47455,11 +47485,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/GO_0090616 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0090616">
-        <rdfs:label>mitochondrial mRNA 3&#39;-end processing</rdfs:label>
+        <rdfs:label>mitochondrial mRNA 3'-end processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000965"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031124"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0090615"/>
-        <obo:IAO_0000115>Any process involved in forming the mature 3&#39; end of an mRNA molecule that derives from the mitochondrial genome.</obo:IAO_0000115>
+        <obo:IAO_0000115>Any process involved in forming the mature 3' end of an mRNA molecule that derives from the mitochondrial genome.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47468,9 +47498,9 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/GO_0090617 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0090617">
-        <rdfs:label>mitochondrial mRNA 5&#39;-end processing</rdfs:label>
+        <rdfs:label>mitochondrial mRNA 5'-end processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0090615"/>
-        <obo:IAO_0000115>Any process involved in forming the mature 5&#39; end of an mRNA molecule that derives from the mitochondrial genome.</obo:IAO_0000115>
+        <obo:IAO_0000115>Any process involved in forming the mature 5' end of an mRNA molecule that derives from the mitochondrial genome.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47516,7 +47546,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097222">
         <rdfs:label>mitochondrial mRNA polyadenylation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000963"/>
-        <obo:IAO_0000115>The enzymatic addition of a sequence of 40-60 adenylyl residues at the 3&#39; end of a eukaryotic mitochondrial mRNA primary transcript. Mitochondria contain both stabilizing and destabilizing poly(A) tails.</obo:IAO_0000115>
+        <obo:IAO_0000115>The enzymatic addition of a sequence of 40-60 adenylyl residues at the 3' end of a eukaryotic mitochondrial mRNA primary transcript. Mitochondria contain both stabilizing and destabilizing poly(A) tails.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47580,11 +47610,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/GO_0097745 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097745">
-        <rdfs:label>mitochondrial tRNA 5&#39;-end processing</rdfs:label>
+        <rdfs:label>mitochondrial tRNA 5'-end processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000964"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0090646"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0099116"/>
-        <obo:IAO_0000115>The process in which the 5&#39; end of a pre-tRNA molecule is converted to that of a mature tRNA in the mitochondrion.</obo:IAO_0000115>
+        <obo:IAO_0000115>The process in which the 5' end of a pre-tRNA molecule is converted to that of a mature tRNA in the mitochondrion.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47616,10 +47646,10 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/GO_0099116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0099116">
-        <rdfs:label>tRNA 5&#39;-end processing</rdfs:label>
+        <rdfs:label>tRNA 5'-end processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000966"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008033"/>
-        <obo:IAO_0000115>The process in which the 5&#39; end of a pre-tRNA molecule is converted to that of a mature tRNA.</obo:IAO_0000115>
+        <obo:IAO_0000115>The process in which the 5' end of a pre-tRNA molecule is converted to that of a mature tRNA.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47641,7 +47671,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140053">
         <rdfs:label>mitochondrial gene expression</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010467"/>
-        <obo:IAO_0000115>The process in which a mitochondrial gene&#39;s sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</obo:IAO_0000115>
+        <obo:IAO_0000115>The process in which a mitochondrial gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47685,7 +47715,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140730">
         <rdfs:label>amphiregulin production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001816"/>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000115>The appearance of amphiregulin due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels. Amphiregulin (AREG) is a ligand of the epidermal growth factor receptor (EGFR), a widely expressed transmembrane tyrosine kinase. AREG is synthesized as a membrane-anchored precursor protein that can engage in juxtacrine signaling on adjacent cells. Alternatively, after proteolytic processing by cell membrane proteases, mainly TACE/ADAM17, AREG is secreted and behaves as an autocrine or paracrine factor.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -47698,7 +47728,7 @@ We also have the outstanding issue of how to aim different definitions to differ
         <rdfs:label>XCL1 production</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0001816"/>
         <obo:IAO_0000115>The appearance of XCL1 due to biosynthesis or secretion following a cellular stimulus, resulting in an increase in its intracellular or extracellular levels.</obo:IAO_0000115>
-        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the &#39;regulation&#39; children terms.</rdfs:comment>
+        <rdfs:comment>Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select one of the 'regulation' children terms.</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47709,7 +47739,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140899">
         <rdfs:label>plastid gene expression</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0010467"/>
-        <obo:IAO_0000115>The process in which a plastid gene&#39;s sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</obo:IAO_0000115>
+        <obo:IAO_0000115>The process in which a plastid gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47763,11 +47793,11 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/GO_1990180 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1990180">
-        <rdfs:label>mitochondrial tRNA 3&#39;-end processing</rdfs:label>
+        <rdfs:label>mitochondrial tRNA 3'-end processing</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0000965"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042780"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0090646"/>
-        <obo:IAO_0000115>The process in which the 3&#39; end of a pre-tRNA molecule is converted to that of a mature tRNA in the mitochondrion.</obo:IAO_0000115>
+        <obo:IAO_0000115>The process in which the 3' end of a pre-tRNA molecule is converted to that of a mature tRNA in the mitochondrion.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -47813,14 +47843,14 @@ We also have the outstanding issue of how to aim different definitions to differ
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
         <rdfs:label xml:lang="en">information content entity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
-        <obo:IAO_0000116 xml:lang="en">2014-03-10: The use of &quot;thing&quot; is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2014-03-10: The use of "thing" is intended to be general enough to include universals and configurations (see https://groups.google.com/d/msg/information-ontology/GBxvYZCk1oc/-L6B5fSBBTQJ).</obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some thing.</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">OBI_0000142</obo:IAO_0000119>
         <obo:IAO_0000117 xml:lang="en">PERSON: Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">information content entity</obo:IAO_0000111>
-        <obo:IAO_0000116 xml:lang="en">information_content_entity &#39;is_encoded_in&#39; some digital_entity in obi before split (040907). information_content_entity &#39;is_encoded_in&#39; some physical_document in obi before split (040907).
+        <obo:IAO_0000116 xml:lang="en">information_content_entity 'is_encoded_in' some digital_entity in obi before split (040907). information_content_entity 'is_encoded_in' some physical_document in obi before split (040907).
 
-Previous. An information content entity is a non-realizable information entity that &#39;is encoded in&#39; some digital or physical entity.</obo:IAO_0000116>
+Previous. An information content entity is a non-realizable information entity that 'is encoded in' some digital or physical entity.</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -48048,7 +48078,7 @@ Previous. An information content entity is a non-realizable information entity t
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000973">
         <rdfs:label xml:lang="en">sequence data</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
-        <obo:IAO_0000115 xml:lang="en">A measurement datum that representing the primary structure of a macromolecule(it&#39;s sequence) sometimes associated with an indicator of confidence of that measurement.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that representing the primary structure of a macromolecule(it's sequence) sometimes associated with an indicator of confidence of that measurement.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </owl:Class>
     
@@ -48070,7 +48100,7 @@ Previous. An information content entity is a non-realizable information entity t
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_0000000001">
         <rdfs:label xml:lang="en">genome</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>A genome is a material entity that represents the entirety of an organism&#39;s hereditary information. The genome includes both the genes and the non-coding sequences of the DNA and RNA.</obo:IAO_0000115>
+        <obo:IAO_0000115>A genome is a material entity that represents the entirety of an organism's hereditary information. The genome includes both the genes and the non-coding sequences of the DNA and RNA.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogg.owl"/>
     </owl:Class>
     
@@ -48104,7 +48134,7 @@ Previous. An information content entity is a non-realizable information entity t
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000051">
         <rdfs:label>morphology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
-        <obo:IAO_0000115>A quality of a single physical entity inhering in the bearer by virtue of the bearer&#39;s size or shape or structure.</obo:IAO_0000115>
+        <obo:IAO_0000115>A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
     </owl:Class>
     
@@ -48138,7 +48168,7 @@ Previous. An information content entity is a non-realizable information entity t
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000141">
         <rdfs:label>structure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
-        <obo:IAO_0000115>A morphology quality inhering in a bearer by virtue of the bearer&#39;s relative position, shape, arrangements and connectivity of an organism&#39;s various parts; the pattern underlying its form.</obo:IAO_0000115>
+        <obo:IAO_0000115>A morphology quality inhering in a bearer by virtue of the bearer's relative position, shape, arrangements and connectivity of an organism's various parts; the pattern underlying its form.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
     </owl:Class>
     
@@ -48243,7 +48273,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000018263"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amino acid chain that is canonically produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Note also that the definition excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to PR:000064867 (&quot;protein-containing molecular entity&quot;). Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that the definition allows for experimentally-manipulated genes, and allows for artifically-produced derivatives that mimic those found naturally. Note also that the definition excludes protein complexes, which some also consider a protein. Those who wish to refer to a class representing both senses of the word are directed to PR:000064867 ("protein-containing molecular entity"). Proteins (in the sense defined here) that descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB).</rdfs:comment>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
@@ -48371,7 +48401,7 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/PR_000050269 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050269">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spike protein S2&#39; (SARS-CoV-2)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spike protein S2' (SARS-CoV-2)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050268"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A spike protein S2 (SARS-CoV-2) that has been further processed by proteolytic cleavage to yield the C-terminal portion. UniProtKB:P0DTC2, 816-1273.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 458 aa protein.</rdfs:comment>
@@ -48602,7 +48632,7 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.obolibrary.org/obo/PR_000050288 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000050288">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2&#39;-O-methyltransferase nsp16 (SARS-CoV-2)</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2'-O-methyltransferase nsp16 (SARS-CoV-2)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000050283"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ORF1ab proteolytic cleavage product (SARS-CoV-2) that is the C-terminal portion produced by the enzymatic action of 3CL-PRO proteinase (nsp5) when it cleaves the precursor replicase polyprotein 1ab (SARS-CoV-2) between residues 6798-6799. UniProtKB:P0DTD1, 6453-6798.</obo:IAO_0000115>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=organism-modification. Note: 298 aa protein.</rdfs:comment>
@@ -48924,7 +48954,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005505"/>
         <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <obo:IAO_0000118>attenuated vaccine</obo:IAO_0000118>
-        <obo:IAO_0000115>A vaccine that is made from microbes that have been attenuated (weakened) in the laboratory so that they can&#39;t cause disease.</obo:IAO_0000115>
+        <obo:IAO_0000115>A vaccine that is made from microbes that have been attenuated (weakened) in the laboratory so that they can't cause disease.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
     
@@ -49508,7 +49538,7 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000118>VLA2001</obo:IAO_0000118>
         <obo:IAO_0000119>https://valneva.com/research-development/covid-19-vla2001/</obo:IAO_0000119>
         <obo:IAO_0000119>VIOLIN: https://violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5816</obo:IAO_0000119>
-        <obo:IAO_0000115>A SARS-CoV-2 inactivated, Vero-cell based vaccine adjuvanted with aluminum and CpG 1018. It uses the manufacturing platform of Valneva&#39;s commercial Japanese encephalitis (JE) vaccine</obo:IAO_0000115>
+        <obo:IAO_0000115>A SARS-CoV-2 inactivated, Vero-cell based vaccine adjuvanted with aluminum and CpG 1018. It uses the manufacturing platform of Valneva's commercial Japanese encephalitis (JE) vaccine</obo:IAO_0000115>
         <obo:IAO_0000117>Philip Huang</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
@@ -51029,7 +51059,7 @@ Previous. An information content entity is a non-realizable information entity t
         <rdfs:label>mRNA-1273.211 vaccine</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0000455"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0005198"/>
-        <obo:IAO_0000115>A multivalent SARS-CoV-2 mRNA booster vaccine which combines mRNA-1273, Moderna&#39;s authorized vaccine against ancestral strains, and mRNA-1273.351 in a single vaccine at the 50 ug dose level and lower.</obo:IAO_0000115>
+        <obo:IAO_0000115>A multivalent SARS-CoV-2 mRNA booster vaccine which combines mRNA-1273, Moderna's authorized vaccine against ancestral strains, and mRNA-1273.351 in a single vaccine at the 50 ug dose level and lower.</obo:IAO_0000115>
         <obo:IAO_0000118>mRNA-1273.211</obo:IAO_0000118>
         <obo:IAO_0000119>https://investors.modernatx.com/news-releases/news-release-details/moderna-announces-it-has-shipped-variant-specific-vaccine</obo:IAO_0000119>
         <obo:IAO_0000119>VIOLIN: https://violinet.org/vaxquery/vaccine_detail.php?c_vaccine_id=5876</obo:IAO_0000119>
@@ -53054,8 +53084,4 @@ Previous. An information content entity is a non-realizable information entity t
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
 </rdf:RDF>
-
-
-
 <!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
-
