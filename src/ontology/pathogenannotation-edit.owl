@@ -20,9 +20,23 @@
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700002"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
         <Class IRI="http://purl.obolibrary.org/obo/COB_0000502"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700002"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://semanticscience.org/resource/SIO_000136"/>
@@ -37,6 +51,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000</IRI>
         <Literal xml:lang="en">variant functional effect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700001</IRI>
+        <Literal xml:lang="en">molecular variant functional effect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700002</IRI>
+        <Literal xml:lang="en">host variant functional effect</Literal>
     </AnnotationAssertion>
 </Ontology>
 
