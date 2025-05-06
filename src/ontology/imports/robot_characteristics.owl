@@ -1,0 +1,2044 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/genepio/imports/characteristics.owl#"
+     xml:base="http://purl.obolibrary.org/obo/genepio/imports/characteristics.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/genepio/imports/characteristics.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COB_0000502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COB_0000502"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101127"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101892">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000502"/>
+        <obo:IAO_0000115 xml:lang="en">The strength of the interaction between two (or more than two) molecules that bind reversibly (interact).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3565702/</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">binding affinity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101893">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102078"/>
+        <obo:IAO_0000115 xml:lang="en">A posttranslational modification rate that has been altered in comparison to some reference posttranslational modification rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered posttranslational modification rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101894 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101894">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102080"/>
+        <obo:IAO_0000115 xml:lang="en">A rate of joining two identical or similar molecular entities by bonds that has been altered in comparison to some reference dimerization rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered dimerization rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101895 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101895">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102082"/>
+        <obo:IAO_0000115 xml:lang="en">A proteolysis rate that has been altered in comparison to some reference proteolysis rate.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Proteolysis</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">altered proteolysis rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101896 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101896">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000502"/>
+        <obo:IAO_0000115 xml:lang="en">The arrangement in space of the constituent atoms that determine the overall shape of a protein molecule.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sciencedirect.com/science/article/pii/B9780723611516500108</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">protein conformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101897">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102068"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A host cell stress granule formation rate that has been altered as compared to some reference host cell stress granule formation rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered host cell stress granule formation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101898 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101898">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">The rate of syncytium formation among the cells of an infectious agent host.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered host cell syncytium formation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101901">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000502"/>
+        <obo:IAO_0000115 xml:lang="en">A quality that inheres in a host that is the state of being symptomatic.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">host symptomaticity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101907 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101907">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000502"/>
+        <obo:IAO_0000115 xml:lang="en">The extent to which an infectious agent is detectable.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wiktionary.org/wiki/detectability</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">detectability of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101908">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000467"/>
+        <obo:IAO_0000115 xml:lang="en">An environmental condition susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by an environmental condition.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">susceptibility of infectious agent to environmental condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101909">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101908"/>
+        <obo:IAO_0000115 xml:lang="en">A temperature condition susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by a temperature condition.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">susceptibility of infectious agent to temperature condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101910">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000467"/>
+        <obo:IAO_0000115 xml:lang="en">An antipathogenic agent susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by an antipathogenic agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">antipathogenic agent susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101911 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101911">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101910"/>
+        <obo:IAO_0000115 xml:lang="en">A therapeutic agent susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by an therapeutic agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">therapeutic agent susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101912 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101912">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101911"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0003823"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A monoclonal antibody susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by an monoclonal antibody.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">monoclonal antibody susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101913">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101911"/>
+        <obo:IAO_0000115 xml:lang="en">A convalescent plasma susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by an convalescent plasma.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">convalescent plasma susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101914 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101914">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000467"/>
+        <obo:IAO_0000115 xml:lang="en">A host immune response susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by an host immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">host immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101915">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101914"/>
+        <obo:IAO_0000115 xml:lang="en">A host adaptive immune response susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by an host adaptive immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">host adaptive immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101916 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101916">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101914"/>
+        <obo:IAO_0000115 xml:lang="en">A host innate immune response susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by an host innate immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">host innate immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101917 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101917">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101916"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0004905"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A Type I interferon activation susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by an Type I interferon activation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Type I interferon activation susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101918 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101918">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101915"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A cytotoxic T cell neutralization susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by an cytotoxic T cell neutralization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">cytotoxic T cell neutralization susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101924">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101892"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A binding affinity that has been altered in comparison to some reference binding affinity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered binding affinity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101925">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101924"/>
+        <obo:IAO_0000115 xml:lang="en">A binding affinity that has been increased in comparison to some reference binding affinity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased binding affinity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101926">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101924"/>
+        <obo:IAO_0000115 xml:lang="en">A binding affinity that has been decreased in comparison to some reference binding affinity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased binding affinity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101927 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101927">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101893"/>
+        <obo:IAO_0000115 xml:lang="en">A posttranslational modification rate that has been increased in comparison to some reference posttranslational modification rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased posttranslational modification rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101928 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101928">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101893"/>
+        <obo:IAO_0000115 xml:lang="en">A posttranslational modification rate that has been decreased in comparison to some reference posttranslational modification rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased posttranslational modification rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101929 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101929">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101894"/>
+        <obo:IAO_0000115 xml:lang="en">A dimerization rate that has been increased in comparison to some reference dimerization rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased dimerization rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101930">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101894"/>
+        <obo:IAO_0000115 xml:lang="en">A dimerization rate that has been decreased in comparison to some reference dimerization rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased dimerization rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101931">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101895"/>
+        <obo:IAO_0000115 xml:lang="en">A proteolysis rate that has been increased in comparison to some reference proteolysis rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased proteolysis rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101895"/>
+        <obo:IAO_0000115 xml:lang="en">A proteolysis rate that has been decreased in comparison to some reference proteolysis rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased proteolysis rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101933">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101897"/>
+        <obo:IAO_0000115 xml:lang="en">A host cell stress granule formation rate that has been increased as compared to some reference host cell stress granule formation rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased host cell stress granule formation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101934 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101934">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101897"/>
+        <obo:IAO_0000115 xml:lang="en">A host cell stress granule formation rate that has been decreased as compared to some reference host cell stress granule formation rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased host cell stress granule formation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101935">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101898"/>
+        <obo:IAO_0000115 xml:lang="en">A host cell syncytium formation rate that has been increased as compared to some reference host cell syncytium formation rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased host cell syncytium formation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101936">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101898"/>
+        <obo:IAO_0000115 xml:lang="en">A host cell syncytium formation rate that has been decreased as compared to some reference host cell syncytium formation rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased host cell syncytium formation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101940">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101907"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A detectability of infectious agent that has been altered as compared to some reference detectability of infectious agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered detectability of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101941">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101940"/>
+        <obo:IAO_0000115 xml:lang="en">A detectability of infectious agent that has been increased as compared to some reference detectability of infectious agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased detectability of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101942">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101940"/>
+        <obo:IAO_0000115 xml:lang="en">A detectability of infectious agent that has been decreased as compared to some reference detectability of infectious agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased detectability of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101943 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101943">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101908"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to environmental condition that has been altered as compared to some reference susceptibility of infectious agent to environmental condition.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered susceptibility of infectious agent to environmental condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101944">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101943"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to environmental condition that has been increased as compared to some reference susceptibility of infectious agent to environmental condition.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased susceptibility of infectious agent to environmental condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101945 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101945">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101943"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to environmental condition that has been decreased as compared to some reference susceptibility of infectious agent to environmental condition.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased susceptibility of infectious agent to environmental condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101946 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101946">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101945"/>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to an environmental condition.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">resistance of infectious agent to environmental condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101947 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101947">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101909"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to temperature condition that has been altered as compared to some reference susceptibility of infectious agent to temperature condition.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered susceptibility of infectious agent to temperature condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101948">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101947"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to temperature condition that has been increased as compared to some reference susceptibility of infectious agent to temperature condition.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased susceptibility of infectious agent to temperature condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101949 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101949">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101947"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to temperature condition that has been decreased as compared to some reference susceptibility of infectious agent to temperature condition.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased susceptibility of infectious agent to temperature condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101950">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101949"/>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to a temperature condition.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">resistance of infectious agent to temperature condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101951 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101951">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101910"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to antipathogenic agent that has been altered as compared to some reference susceptibility of infectious agent to antipathogenic agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered antipathogenic agent susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101952">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101951"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to antipathogenic agent that has been increased as compared to some reference susceptibility of infectious agent to antipathogenic agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased antipathogenic agent susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101953 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101953">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101951"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to antipathogenic agent that has been decreased as compared to some reference susceptibility of infectious agent to antipathogenic agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased antipathogenic agent susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101954 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101954">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101953"/>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to a antipathogenic agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">antipathogenic agent resistance of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101955">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101911"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to therapeutic agent that has been altered as compared to some reference susceptibility of infectious agent to therapeutic agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered therapeutic agent susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101956">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101955"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to therapeutic agent that has been increased as compared to some reference susceptibility of infectious agent to therapeutic agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased therapeutic agent susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101957 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101957">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101955"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to therapeutic agent that has been decreased as compared to some reference susceptibility of infectious agent to therapeutic agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased therapeutic agent susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101958 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101958">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101957"/>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to a therapeutic agent.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">therapeutic agent resistance of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101959 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101959">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101912"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to monoclonal antibody that has been altered as compared to some reference susceptibility of infectious agent to monoclonal antibody.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered monoclonal antibody susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101960 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101960">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101959"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to monoclonal antibody that has been increased as compared to some reference susceptibility of infectious agent to monoclonal antibody.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased monoclonal antibody susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101961 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101961">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101959"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to monoclonal antibody that has been decreased as compared to some reference susceptibility of infectious agent to monoclonal antibody.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased monoclonal antibody susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101962">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101961"/>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to a monoclonal antibody.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">monoclonal antibody resistance of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101963">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101913"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to convalescent plasma that has been altered as compared to some reference susceptibility of infectious agent to convalescent plasma.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered convalescent plasma susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101964">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101963"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to convalescent plasma that has been increased as compared to some reference susceptibility of infectious agent to convalescent plasma.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased convalescent plasma susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101965 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101965">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101963"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to convalescent plasma that has been decreased as compared to some reference susceptibility of infectious agent to convalescent plasma.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased convalescent plasma susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101966">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101965"/>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to a convalescent plasma.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">convalescent plasma resistance of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101967 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101967">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101914"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to host immune response that has been altered as compared to some reference susceptibility of infectious agent to host immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered host immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101968">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101967"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to host immune response that has been increased as compared to some reference susceptibility of infectious agent to host immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased host immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101969 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101969">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101967"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042783"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to host immune response that has been decreased as compared to some reference susceptibility of infectious agent to host immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased host immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101970">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101969"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042783"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to a host immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">host immune response resistance of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101971 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101971">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101915"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to host adaptive immune response that has been altered as compared to some reference susceptibility of infectious agent to host adaptive immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered host adaptive immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101972">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101971"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to host adaptive immune response that has been increased as compared to some reference susceptibility of infectious agent to host adaptive immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased host adaptive immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101973">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101971"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to host adaptive immune response that has been decreased as compared to some reference susceptibility of infectious agent to host adaptive immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased host adaptive immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101974">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101973"/>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to a host adaptive immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">host adaptive immune response resistance of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101975 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101975">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101916"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to host innate immune response that has been altered as compared to some reference susceptibility of infectious agent to host innate immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered host innate immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101976">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101975"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to host innate immune response that has been increased as compared to some reference susceptibility of infectious agent to host innate immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased host innate immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101977">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101975"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to host innate immune response that has been decreased as compared to some reference susceptibility of infectious agent to host innate immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased host innate immune response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101978">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101977"/>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to a host innate immune response.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">host innate immune response resistance of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101979">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101917"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to Type I interferon activation that has been altered as compared to some reference susceptibility of infectious agent to Type I interferon activation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered Type I interferon activation response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101980 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101980">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101979"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to Type I interferon activation that has been increased as compared to some reference susceptibility of infectious agent to Type I interferon activation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased Type I interferon activation response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101981 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101981">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101979"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to Type I interferon activation that has been decreased as compared to some reference susceptibility of infectious agent to Type I interferon activation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased Type I interferon activation response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101982 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101982">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101981"/>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to Type I interferon activation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">Type I interferon activation response resistance of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101983">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101918"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to cytotoxic T cell neutralization that has been altered as compared to some reference susceptibility of infectious agent to cytotoxic T cell neutralization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered cytotoxic T cell neutralization response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101984">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101983"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to cytotoxic T cell neutralization that has been increased as compared to some reference susceptibility of infectious agent to cytotoxic T cell neutralization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased cytotoxic T cell neutralization response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101985 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101985">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101983"/>
+        <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to cytotoxic T cell neutralization that has been decreased as compared to some reference susceptibility of infectious agent to cytotoxic T cell neutralization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased cytotoxic T cell neutralization response susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101986">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101985"/>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to a cytotoxic T cell neutralization.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">cytotoxic T cell neutralization response resistance of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101990">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A viral life cycle stage that has been altered as compared to some reference viral life cycle stage.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered viral life cycle stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101991">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102084"/>
+        <obo:IAO_0000115 xml:lang="en">Intracellular transport of virus rate that has been altered as compared to some reference intracellular transport of virus rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered intracellular transport of virus rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101992">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101991"/>
+        <obo:IAO_0000115 xml:lang="en">Intracellular transport of virus rate that has been increased as compared to some reference intracellular transport of virus rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased intracellular transport of virus rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101993 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101993">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101991"/>
+        <obo:IAO_0000115 xml:lang="en">Intracellular transport of virus rate that has been decreased as compared to some reference intracellular transport of virus rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased intracellular transport of virus rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101994 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101994">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102086"/>
+        <obo:IAO_0000115 xml:lang="en">A symbiont entry into host cell rate that has been altered as compared to some reference symbiont entry into host cell rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered symbiont entry into host cell rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101995">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101994"/>
+        <obo:IAO_0000115 xml:lang="en">A symbiont entry into host cell rate that has been increased as compared to some reference symbiont entry into host cell rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased symbiont entry into host cell rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101996 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101996">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101994"/>
+        <obo:IAO_0000115 xml:lang="en">A symbiont entry into host cell rate that has been increased as compared to some reference symbiont entry into host cell rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased symbiont entry into host cell rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101997">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102088"/>
+        <obo:IAO_0000115 xml:lang="en">A viral genome integration into host DNA rate that has been altered as compared to some reference viral genome integration into host DNA rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered viral genome integration into host DNA rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101998">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101997"/>
+        <obo:IAO_0000115 xml:lang="en">A viral genome integration into host DNA rate that has been increased as compared to some reference viral genome integration into host DNA rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased viral genome integration into host DNA rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101999">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101997"/>
+        <obo:IAO_0000115 xml:lang="en">A viral genome integration into host DNA rate that has been decreased as compared to some reference viral genome integration into host DNA rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased viral genome integration into host DNA rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102090"/>
+        <obo:IAO_0000115 xml:lang="en">A viral genome replication rate that has been altered as compared to some reference viral genome replication rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered viral genome replication rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102000"/>
+        <obo:IAO_0000115 xml:lang="en">A viral genome replication rate that has been increased as compared to some reference viral genome replication rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased viral genome replication rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102000"/>
+        <obo:IAO_0000115 xml:lang="en">A viral genome replication rate that has been decreased as compared to some reference viral genome replication rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased viral genome replication rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102092"/>
+        <obo:IAO_0000115 xml:lang="en">A viral release from host cell rate that has been altered as compared to some reference viral release from host cell rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered viral release from host cell rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102003"/>
+        <obo:IAO_0000115 xml:lang="en">A viral release from host cell rate that has been increased as compared to some reference viral release from host cell rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased viral release from host cell rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102003"/>
+        <obo:IAO_0000115 xml:lang="en">A viral release from host cell rate that has been decreased as compared to some reference viral release from host cell rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased viral release from host cell rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102094"/>
+        <obo:IAO_0000115 xml:lang="en">A virion assembly rate that has been altered as compared to some reference virion assembly rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered virion assembly rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102006"/>
+        <obo:IAO_0000115 xml:lang="en">A virion assembly rate that has been increased as compared to some reference virion assembly rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased virion assembly rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102006"/>
+        <obo:IAO_0000115 xml:lang="en">A virion assembly rate that has been decreased as compared to some reference virion assembly rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased virion assembly rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102096"/>
+        <obo:IAO_0000115 xml:lang="en">A virion attachment to host cell rate that has been altered as compared to some reference virion attachment to host cell rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered virion attachment to host cell rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102009"/>
+        <obo:IAO_0000115 xml:lang="en">A virion attachment to host cell rate that has been increased as compared to some reference virion attachment to host cell rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased virion attachment to host cell rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102009"/>
+        <obo:IAO_0000115 xml:lang="en">A virion attachment to host cell rate that has been decreased as compared to some reference virion attachment to host cell rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased virion attachment to host cell rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102098"/>
+        <obo:IAO_0000115 xml:lang="en">A virus maturation rate that has been altered as compared to some reference virus maturation rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered virus maturation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102012"/>
+        <obo:IAO_0000115 xml:lang="en">A virus maturation rate that has been increased as compared to some reference virus maturation rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased virus maturation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102012"/>
+        <obo:IAO_0000115 xml:lang="en">A virus maturation rate that has been decreased as compared to some reference virus maturation rate.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased virus maturation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000463"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent transmissibility that has been altered as compared to some reference infectious agent transmissibility.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered infectious agent transmissibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102015"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent transmissibility that has been increased as compared to some reference infectious agent transmissibility.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased infectious agent transmissibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102015"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent transmissibility that has been decreased as compared to some reference infectious agent transmissibility.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased infectious agent transmissibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000470"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042493"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A drug susceptibility of infectious agent that has been altered as compared to some reference drug susceptibility.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered drug susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102018"/>
+        <obo:IAO_0000115 xml:lang="en">A drug susceptibility of infectious agent that has been increased as compared to some reference drug susceptibility.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased drug susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102018"/>
+        <obo:IAO_0000115 xml:lang="en">A drug susceptibility of infectious agent that has been decreased as compared to some reference drug susceptibility.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased drug susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000464"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">Infectivity that has been altered as compared to some reference infectivity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered infectivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102021"/>
+        <obo:IAO_0000115 xml:lang="en">Infectivity that has been increased as compared to some reference infectivity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased infectivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102021"/>
+        <obo:IAO_0000115 xml:lang="en">Infectivity that has been decreased as compared to some reference infectivity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased infectivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102100"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A macromolecular stability that has been altered as compared to some reference macromolecular stability.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered macromolecular stability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102024"/>
+        <obo:IAO_0000115 xml:lang="en">A macromolecular stability that has been increased as compared to some reference macromolecular stability.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased macromolecular stability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102024"/>
+        <obo:IAO_0000115 xml:lang="en">A macromolecular stability that has been decreased as compared to some reference macromolecular stability.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased macromolecular stability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000467"/>
+        <obo:IAO_0000115 xml:lang="en">A vaccine susceptibility that inheres in an infectious agent and is the degree to which the infectious agent can be harmed or inhibited by a vaccine.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">vaccine susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102062"/>
+        <obo:IAO_0000115 xml:lang="en">The absence of susceptibility of an infectious agent to a vaccine.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">vaccine resistance of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A vaccine susceptibility of infectious agent that has been altered as compared to some reference vaccine susceptibility.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered vaccine susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102061"/>
+        <obo:IAO_0000115 xml:lang="en">A vaccine susceptibility of infectious agent that has been decreased as compared to some reference vaccine susceptibility.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased vaccine susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102061"/>
+        <obo:IAO_0000115 xml:lang="en">A vaccine susceptibility of infectious agent that has been increased as compared to some reference vaccine susceptibility.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased vaccine susceptibility of infectious agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101896"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A protein conformation that has been altered as compared to some reference protein conformation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered protein conformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000502"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0034063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The rate of stress granule formation in the cells of an infectious agent host.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">host cell stress granule formation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000466"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">A virulence that has been altered as compared to some reference virulence.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered virulence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102069"/>
+        <obo:IAO_0000115 xml:lang="en">A virulence that has been increased as compared to some reference virulence.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased virulence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102069"/>
+        <obo:IAO_0000115 xml:lang="en">A virulence that has been decreased as compared to some reference virulence.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased virulence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000502"/>
+        <obo:IAO_0000115 xml:lang="en">The infection specificity of an infectious agent to particular hosts and host tissues.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Host_tropism</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">infectious agent host tropism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102072"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0098678"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent host tropism that has been altered as compared to a reference infectious agent host tropism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered infectious agent host tropism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0010467"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent gene expression level that has been altered as compared to some reference infectious agent gene expression level.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered infectious agent gene expression level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102074"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent gene expression level that has been increased as compared to some reference infectious agent gene expression level.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased infectious agent gene expression level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102074"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent gene expression level that has been increased as compared to some reference infectious agent gene expression level.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased infectious agent gene expression level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COB_0000502"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006949"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">The rate of syncytium formation among the cells of an infectious agent host.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">host cell syncytium formation rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0043687"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An alteration in the process of covalently adding a chemical group to an amino acid in a protein after the protein has been synthesized, in comparison to some reference posttranslational modification.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/posttranslational-modification</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">altered posttranslational modification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102078"/>
+        <obo:IAO_0000115 xml:lang="en">A posttranslational modification mechanism that has been increased in comparison to some reference posttranslational modification mechanism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered posttranslational modification mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0046983"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An alteration in the process of joining two identical or similar molecular entities by bonds, in comparison to some reference dimerization.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Dimerization</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">altered dimerization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102080"/>
+        <obo:IAO_0000115 xml:lang="en">A mechanism of joining two identical or similar molecular entities by bonds that has been altered in comparison to some reference dimerization mechanism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered dimerization mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006508"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An alteration in the process of breakdown of proteins into smaller polypeptides or amino acids, in comparison to some reference proteolysis.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered proteolysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102082"/>
+        <obo:IAO_0000115 xml:lang="en">A proteolysis mechanism that has been altered in comparison to some reference proteolysis mechanism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered proteolysis mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101990"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0075733"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An alteration in the directed movement of a virus, or part of a virus, within the host cell.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0075733</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">altered intracellular transport of virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102084"/>
+        <obo:IAO_0000115 xml:lang="en">An intracellular transport of virus mechanism that has been altered as compared to some reference intracellular transport of virus mechanism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered intracellular transport of virus mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101990"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0046718"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An alteration in the process by which a symbiont breaches the plasma membrane or cell envelope and enters the host cell. This process ends when the symbiont or its genome is released into the host cell.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0046718</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">altered symbiont entry into host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102086"/>
+        <obo:IAO_0000115 xml:lang="en">A symbiont entry into host cell mechanism that has been altered as compared to some reference symbiont entry into host cell mechanism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered symbiont entry into host cell mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101990"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0044826"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An alteration in the insertion into a host genome of viral DNA, usually by the action of an integrase enzyme. Once integrated, the provirus persists in the host cell and serves as a template for the transcription of viral genes and replication of the viral genome, leading to the production of new viruses.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0044826</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">altered viral genome integration into host DNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102088"/>
+        <obo:IAO_0000115 xml:lang="en">A viral genome integration into host DNA mechanism that has been altered as compared to some reference viral genome integration into host DNA mechanism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered viral genome integration into host DNA mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101990"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An alteration in any process involved directly in viral genome replication, including viral nucleotide metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0019079</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">altered viral genome replication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102090"/>
+        <obo:IAO_0000115 xml:lang="en">A viral genome replication mechanism that has been altered as compared to some reference viral genome replication mechanism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered viral genome replication mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101990"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An alteration in the dissemination of mature viral particles from a host cell, e.g. by cell lysis or the budding of virus particles from the cell membrane.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0019076</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">altered viral release from host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102092"/>
+        <obo:IAO_0000115 xml:lang="en">A viral release from host cell mechanism that has been altered as compared to some reference viral release from host cell mechanism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered viral release from host cell mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101990"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An alteration in the process during the late phase of the viral life cycle during which all the components necessary for the formation of a mature virion collect at a particular site in the cell and the basic structure of the virus particle is formed.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0019068</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">altered virion assembly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102094"/>
+        <obo:IAO_0000115 xml:lang="en">A virion assembly mechanism that has been altered as compared to some reference virion assembly mechanism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered virion assembly mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101990"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019080"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An alteration in the process by which a virion protein binds to molecules on the host cellular surface or host cell surface projection.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0019080</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">altered virion attachment to host cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102096"/>
+        <obo:IAO_0000115 xml:lang="en">A virion attachment to host cell mechanism that has been altered as compared to some reference virion attachment to host cell mechanism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered virion attachment to host cell mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101990"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019075"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An alteration in the refolding and structural rearrangements of virion parts to transition from the intermediate virion to the more mature virion. Maturation usually involves proteolysis events and changes in the folding of the virion proteins. Can occur inside the host cell or after release.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0019075</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">altered virus maturation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102098"/>
+        <obo:IAO_0000115 xml:lang="en">A virus maturation mechanism that has been altered as compared to some reference virus maturation mechanism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered virus maturation mechanism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0015026"/>
+        <obo:IAO_0000115 xml:lang="en">The stability of a macromolecule.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">macromolecular stability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101901"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <obo:IAO_0000115 xml:lang="en">Host symptomaticity that has been altered as compared to some reference host symptomaticity.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered host symptomaticity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102074"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent gene transcription level that has been altered as compared to some reference infectious agent gene transcription level.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered infectious agent gene transcription level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102102"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent gene transcription level that has been increased as compared to some reference infectious agent gene transcription level.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased infectious agent gene transcription level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102076"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102102"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent gene transcription level that has been increased as compared to some reference infectious agent gene transcription level.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased infectious agent gene transcription level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102074"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent gene translation level that has been altered as compared to some reference infectious agent gene translation level.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">altered infectious agent gene translation level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102075"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102105"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent gene translation level that has been increased as compared to some reference infectious agent gene translation level.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">increased infectious agent gene translation level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0102107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102076"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102105"/>
+        <obo:IAO_0000115 xml:lang="en">An infectious agent gene translation level that has been increased as compared to some reference infectious agent gene translation level.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">decreased infectious agent gene translation level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003823 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003823"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0004905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004905"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006508"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006949 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006949"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0010467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010467"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019068"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019075"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019076"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019079"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019080"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0034063"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042110"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042493"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042783 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0042783"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043687"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044826"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046718"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0046983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0046983"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0075733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0075733"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098678"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000463"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000464"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000466 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000466"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000467"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000470"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0015026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0015026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
