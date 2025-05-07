@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/genepio/imports/NC_045512.2.owl#"
+     xml:base="http://purl.obolibrary.org/obo/genepio/imports/NC_045512.2.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/genepio/imports/NC_045512.2.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101134 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101134">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740578"/>
+        <rdfs:label xml:lang="en">open reading frame 1ab gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101135 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101135">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740578"/>
+        <rdfs:label xml:lang="en">orf1ab gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101136 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101136">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724389.1"/>
+        <rdfs:label xml:lang="en">open reading frame 1ab polyprotein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101137 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101137">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724389.1"/>
+        <rdfs:label xml:lang="en">Orf1ab protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101140 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101140">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724389.1"/>
+        <rdfs:label xml:lang="en">open reading frame 1a polyprotein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101141 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101141">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724389.1"/>
+        <rdfs:label xml:lang="en">Orf1a protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101142 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101142">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740568"/>
+        <rdfs:label xml:lang="en">surface glycoprotein gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101143 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101143">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740568"/>
+        <rdfs:label xml:lang="en">s gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101144 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101144">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724390.1"/>
+        <rdfs:label xml:lang="en">surface glycoprotein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101145 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101145">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724390.1"/>
+        <rdfs:label xml:lang="en">S protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101146 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101146">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740569"/>
+        <rdfs:label xml:lang="en">open reading frame 3a gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101147 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101147">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740569"/>
+        <rdfs:label xml:lang="en">orf3a gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101148 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101148">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724391.1"/>
+        <rdfs:label xml:lang="en">open reading frame 3a protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101149 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101149">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724391.1"/>
+        <rdfs:label xml:lang="en">Orf3a protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101150 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101150">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740570"/>
+        <rdfs:label xml:lang="en">envelope gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101151 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101151">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740570"/>
+        <rdfs:label xml:lang="en">e gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101152 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101152">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724392.1"/>
+        <rdfs:label xml:lang="en">envelope protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101153 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101153">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724392.1"/>
+        <rdfs:label xml:lang="en">E protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101154 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101154">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740571"/>
+        <rdfs:label xml:lang="en">membrane glycoprotein gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101155 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101155">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740571"/>
+        <rdfs:label xml:lang="en">m gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101156 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101156">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724393.1"/>
+        <rdfs:label xml:lang="en">membrane glycoprotein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101157 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101157">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724393.1"/>
+        <rdfs:label xml:lang="en">M protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101158 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101158">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740572"/>
+        <rdfs:label xml:lang="en">open reading frame 6 gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101159 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101159">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740572"/>
+        <rdfs:label xml:lang="en">orf6 gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101160 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101160">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724394.1"/>
+        <rdfs:label xml:lang="en">open reading frame 6 protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101161 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101161">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724394.1"/>
+        <rdfs:label xml:lang="en">Orf6 protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101162 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101162">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740573"/>
+        <rdfs:label xml:lang="en">open reading frame 7a gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101163 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101163">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740573"/>
+        <rdfs:label xml:lang="en">orf7a gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101164 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101164">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724395.1"/>
+        <rdfs:label xml:lang="en">open reading frame 7a protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101165 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101165">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724395.1"/>
+        <rdfs:label xml:lang="en">Orf7a protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101166 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101166">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740574"/>
+        <rdfs:label xml:lang="en">open reading frame 7b gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101167 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101167">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740574"/>
+        <rdfs:label xml:lang="en">orf7b gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101168 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101168">
+        <oboInOwl:hasDbXref rdf:resource="YP_009725318.1"/>
+        <rdfs:label xml:lang="en">open reading frame 7b protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101169 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101169">
+        <oboInOwl:hasDbXref rdf:resource="YP_009725318.1"/>
+        <rdfs:label xml:lang="en">Orf7b protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101170 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101170">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740577"/>
+        <rdfs:label xml:lang="en">open reading frame 8 gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101171 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101171">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740577"/>
+        <rdfs:label xml:lang="en">orf8 gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101172 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101172">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724396.1"/>
+        <rdfs:label xml:lang="en">open reading frame 8 protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101173 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101173">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724396.1"/>
+        <rdfs:label xml:lang="en">Orf8 protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101174 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101174">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740575"/>
+        <rdfs:label xml:lang="en">nucleocapsid phosphoprotein gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101175 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101175">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740575"/>
+        <rdfs:label xml:lang="en">n gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101176 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101176">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724397.2"/>
+        <rdfs:label xml:lang="en">nucleocapsid phosphoprotein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101177 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101177">
+        <oboInOwl:hasDbXref rdf:resource="YP_009724397.2"/>
+        <rdfs:label xml:lang="en">N protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101178 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101178">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740576"/>
+        <rdfs:label xml:lang="en">open reading frame 10 gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101179 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101179">
+        <oboInOwl:hasDbXref rdf:resource="GeneID:43740576"/>
+        <rdfs:label xml:lang="en">orf10 gene (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101180 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101180">
+        <oboInOwl:hasDbXref rdf:resource="YP_009725255.1"/>
+        <rdfs:label xml:lang="en">open reading frame 10 protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101181 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101181">
+        <oboInOwl:hasDbXref rdf:resource="YP_009725255.1"/>
+        <rdfs:label xml:lang="en">Orf10 protein (SARS-CoV-2)</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

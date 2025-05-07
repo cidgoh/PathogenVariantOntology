@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/genepio/imports/NC_045512.2.owl" uri="imports/robot_NC_045512.2.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/genepio/imports/characteristics.owl" uri="imports/robot_characteristics.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ro/releases/2025-03-05/ro.owl" uri="http://purl.obolibrary.org/obo/ro.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl" uri="imports/general_import.owl"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl" uri="imports/riq0iqi8.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1746216224315" name="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl" uri="imports/general_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1746216224315" name="http://purl.obolibrary.org/obo/genepio/imports/robot_pokay_import.owl" uri="imports/robot_pokay_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1746216224315" name="http://www.semanticweb.org/madeline/ontologies/2025/2/untitled-ontology-74" uri="pathogenannotation-edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1746658803051" name="http://purl.obolibrary.org/obo/genepio/imports/NC_045512.2.owl" uri="imports/robot/NC_045512.2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1746658803051" name="http://purl.obolibrary.org/obo/genepio/imports/characteristics.owl" uri="imports/robot_characteristics.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1746658803051" name="http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl" uri="imports/general_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1746658803051" name="http://purl.obolibrary.org/obo/genepio/imports/robot_pokay_import.owl" uri="imports/robot_pokay_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1746658803051" name="http://www.semanticweb.org/madeline/ontologies/2025/2/untitled-ontology-74" uri="pathogenannotation-edit.owl"/>
     </group>
 </catalog>
