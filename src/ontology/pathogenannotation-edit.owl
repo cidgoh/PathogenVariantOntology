@@ -19,6 +19,9 @@
     <Import>http://purl.obolibrary.org/obo/genepio/imports/robot_pokay_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/ro/releases/2025-03-05/ro.owl</Import>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0700000"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
     </Declaration>
     <Declaration>
@@ -27,6 +30,10 @@
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700002"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0700000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
         <Class IRI="http://purl.obolibrary.org/obo/COB_0000502"/>
@@ -43,6 +50,11 @@
         <Class IRI="http://semanticscience.org/resource/SIO_000136"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000300"/>
     </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0700000</IRI>
+        <Literal xml:lang="en">altered viral load</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000</IRI>
