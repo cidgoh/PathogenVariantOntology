@@ -103,6 +103,15 @@ http://purl.obolibrary.org/obo/GO_0034063 # stress granule assembly
 http://purl.obolibrary.org/obo/GO_0006949 # syncytium formation
 http://purl.obolibrary.org/obo/GO_0010467 # gene expression
 includeAllChildren
+http://purl.obolibrary.org/obo/GO_0075733 #intracellular transport of virus
+http://purl.obolibrary.org/obo/GO_0046718 #symbiont entry into host cell
+http://purl.obolibrary.org/obo/GO_0044826 #viral genome integration into host DNA
+http://purl.obolibrary.org/obo/GO_0019079 #viral genome replication
+http://purl.obolibrary.org/obo/GO_0019076 #viral release from host cell
+http://purl.obolibrary.org/obo/GO_0019068 #virion assembly
+http://purl.obolibrary.org/obo/GO_0019062 #virion attachment to host cell
+http://purl.obolibrary.org/obo/GO_0019075 #virus maturation
+includeAllAxioms
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
