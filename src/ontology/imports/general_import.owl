@@ -78,9 +78,6 @@
         <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
         <rdfs:label>textual definition</rdfs:label>
@@ -117,6 +114,9 @@ We also have the outstanding issue of how to aim different definitions to differ
         <obo:IAO_0000115>The official definition.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
         <rdfs:label>label</rdfs:label>
@@ -53241,11 +53241,77 @@ Previous. An information content entity is a non-realizable information entity t
     
 
 
+    <!-- http://semanticscience.org/resource/SIO_000000 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000000">
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">Every thing is an entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000015 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000015">
+        <rdfs:label xml:lang="en">information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000776"/>
+        <obo:IAO_0000115 xml:lang="en">information content entity is an object that requires some background knowledge or procedure to correctly interpret.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000078 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000078">
+        <rdfs:label xml:lang="en">language entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000015"/>
+        <obo:IAO_0000115 xml:lang="en">A language entity implements some language specification for the visual interpretation and is part of some document.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://semanticscience.org/resource/SIO_000136 -->
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000136">
         <rdfs:label xml:lang="en">description</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000078"/>
         <obo:IAO_0000115 xml:lang="en">A description is language entity in which elements of a language (formal or natural) are used to characterize an entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000602 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000602">
+        <rdfs:label xml:lang="en">computational entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000015"/>
+        <obo:IAO_0000115 xml:lang="en">A computational entity is an information content entity operated on using some computational system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000756 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000756">
+        <rdfs:label xml:lang="en">database entry</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000602"/>
+        <obo:IAO_0000115 xml:lang="en">A database entry is a single, implicitly structured data item in a table.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000776 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000776">
+        <rdfs:label xml:lang="en">object</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000000"/>
+        <obo:IAO_0000115 xml:lang="en">An object is an entity that is wholly identifiable at any instant of time during which it exists.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </owl:Class>
     <rdf:Description>
