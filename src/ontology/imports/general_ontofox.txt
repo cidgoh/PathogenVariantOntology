@@ -208,6 +208,11 @@ OBI
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OBI_0000973 # sequence data
+http://purl.obolibrary.org/obo/OBI_0000066 # investigation
+http://purl.obolibrary.org/obo/OBI_0000355 # hypothesis driven investigation
+http://purl.obolibrary.org/obo/OBI_0002897 # surveillance process
+http://purl.obolibrary.org/obo/OBI_0001909 # conclusion based on data
+http://purl.obolibrary.org/obo/OBI_0000070 # assay
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
