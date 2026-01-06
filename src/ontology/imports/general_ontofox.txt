@@ -289,8 +289,10 @@ http://purl.obolibrary.org/obo/IAO_0000119 # definition source
 PR
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/PR_000000001 #protein
-http://purl.obolibrary.org/obo/PR_000050262 #severe acute respiratory syndrome coronavirus 2 protein
+http://purl.obolibrary.org/obo/PR_000000001 # protein
+http://purl.obolibrary.org/obo/PR_000050262 # severe acute respiratory syndrome coronavirus 2 protein
+includeAllChildren
+http://purl.obolibrary.org/obo/PR_000003622 # angiotensin-converting enzyme 2
 includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
