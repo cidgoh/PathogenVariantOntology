@@ -377,6 +377,9 @@ SIO
 [Low level source term URIs]
 http://semanticscience.org/resource/SIO_000136 # description
 http://semanticscience.org/resource/SIO_000756 # database entry
+http://semanticscience.org/resource/SIO_001035 # peer-reviewed
+http://semanticscience.org/resource/SIO_001029 # peer reviewed article
+includeAllAxioms
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
