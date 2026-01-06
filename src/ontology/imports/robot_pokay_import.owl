@@ -121,7 +121,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NC_000023.10:g.33038255C&gt;A</obo:IAO_0000112>
+        <obo:IAO_0000112>NC_000023.10:g.33038255C&gt;A</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A sequence mutation (symbol) that encodes nucleotide mutations.</obo:IAO_0000115>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-28T21:17:55.964Z</terms:date>
         <rdfs:label xml:lang="en">nucleotide sequence mutation (symbol)</rdfs:label>
@@ -139,7 +139,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101032"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRG_199p1:p.Trp24Cys</obo:IAO_0000112>
+        <obo:IAO_0000112>LRG_199p1:p.Trp24Cys</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A sequence mutation (symbol) that encodes amino acid mutations.</obo:IAO_0000115>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-28T21:17:55.964Z</terms:date>
         <rdfs:label xml:lang="en">amino acid sequence mutation (symbol)</rdfs:label>
@@ -158,7 +158,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101091"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3563S, 12-bp deletion in E at position 54647, D614del, D to G substitution at amino acid 614</obo:IAO_0000112>
+        <obo:IAO_0000112>C3563S, 12-bp deletion in E at position 54647, D614del, D to G substitution at amino acid 614</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A sequence datum which describes a mutation, written in the user&apos;s own notation.</obo:IAO_0000115>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-28T21:17:55.964Z</terms:date>
         <rdfs:label xml:lang="en">original variant description</rdfs:label>
@@ -176,9 +176,9 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NC_000023.10:g.33038255C&gt;A</obo:IAO_0000112>
+        <obo:IAO_0000112>NC_000023.10:g.33038255C&gt;A</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A sequence mutation composed of nucleotides.</obo:IAO_0000115>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ncbi.nlm.nih.gov/books/NBK21114/</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK21114/</obo:IAO_0000119>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-28T21:17:55.964Z</terms:date>
         <rdfs:label xml:lang="en">nucleotide sequence mutation</rdfs:label>
     </owl:Class>
@@ -201,7 +201,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LRG_199p1:p.Trp24Cys</obo:IAO_0000112>
+        <obo:IAO_0000112>LRG_199p1:p.Trp24Cys</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A sequence mutation composed of amino acids.</obo:IAO_0000115>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-28T21:17:55.964Z</terms:date>
         <rdfs:label xml:lang="en">amino acid sequence mutation</rdfs:label>
@@ -259,7 +259,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A sequence data which is the name of a protein (typically) assigned by a person and/or according to a naming scheme.</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planned Obsolescence: this term is a placeholder for a term requested in another ontology. Once the appropriate ontology term is available, this term’s identifier will be obsoleted with a “term replaced by” id of the other term</obo:IAO_0000116>
+        <obo:IAO_0000116>Planned Obsolescence: this term is a placeholder for a term requested in another ontology. Once the appropriate ontology term is available, this term’s identifier will be obsoleted with a “term replaced by” id of the other term</obo:IAO_0000116>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-28T21:17:55.964Z</terms:date>
         <rdfs:label xml:lang="en">protein name</rdfs:label>
     </owl:Class>
@@ -277,7 +277,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A sequence data which is the short name of a protein typically derived from the protein name.</obo:IAO_0000115>
-        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planned Obsolescence: this term is a placeholder for a term requested in another ontology. Once the appropriate ontology term is available, this term’s identifier will be obsoleted with a “term replaced by” id of the other term</obo:IAO_0000116>
+        <obo:IAO_0000116>Planned Obsolescence: this term is a placeholder for a term requested in another ontology. Once the appropriate ontology term is available, this term’s identifier will be obsoleted with a “term replaced by” id of the other term</obo:IAO_0000116>
         <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-28T21:17:55.964Z</terms:date>
         <rdfs:label xml:lang="en">protein symbol</rdfs:label>
     </owl:Class>
@@ -315,5 +315,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
 
