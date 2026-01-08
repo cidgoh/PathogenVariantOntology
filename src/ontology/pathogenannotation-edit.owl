@@ -17,7 +17,7 @@
     <Import>http://purl.obolibrary.org/obo/genepio/imports/characteristics.owl</Import>
     <Import>http://purl.obolibrary.org/obo/genepio/imports/pokay_import.owl</Import>
     <Import>http://purl.obolibrary.org/obo/genepio/imports/robot_pokay_import.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/ro/releases/2025-03-05/ro.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/ro/releases/2025-06-24/ro.owl</Import>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101035"/>
     </Declaration>
