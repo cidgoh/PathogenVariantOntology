@@ -22,6 +22,9 @@
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101035"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102035"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102036"/>
     </Declaration>
     <Declaration>
@@ -52,6 +55,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000142"/>
             <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101034"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102035"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000973"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102035"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000219"/>
+            <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102036"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -87,6 +101,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GENEPIO_0101035</IRI>
         <Literal>variant functional effect record</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102035</IRI>
+        <Literal>A set of sequence mutation (symbol)s.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102035</IRI>
+        <Literal>sequence mutation (symbol) set</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
