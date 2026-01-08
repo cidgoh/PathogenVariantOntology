@@ -41,6 +41,10 @@
     </Declaration>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101035"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0001741"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101035"/>
         <Class IRI="http://semanticscience.org/resource/SIO_000756"/>
     </SubClassOf>
     <SubClassOf>
