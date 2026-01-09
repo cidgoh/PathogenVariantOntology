@@ -90,6 +90,8 @@ GENEPIO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/GENEPIO_0001741  # draft GenEpiO component record
+http://purl.obolibrary.org/obo/GENEPIO_0100599 # gene name
+http://purl.obolibrary.org/obo/GENEPIO_0100598 # gene symbol
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
