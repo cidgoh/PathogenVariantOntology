@@ -73,6 +73,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102035"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0002351"/>
+            <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101091"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102036"/>
         <Class IRI="http://purl.obolibrary.org/obo/CHEBI_24431"/>
     </SubClassOf>
