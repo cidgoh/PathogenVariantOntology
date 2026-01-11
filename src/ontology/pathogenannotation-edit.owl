@@ -52,13 +52,13 @@
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0700000"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700001"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0100598"/>
@@ -93,7 +93,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101035"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000136"/>
-            <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+            <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -118,7 +118,7 @@
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101036"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000136"/>
-            <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+            <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -176,7 +176,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0700000"/>
-        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0001909"/>
@@ -187,16 +187,16 @@
         <Class IRI="http://purl.obolibrary.org/obo/SEPIO_0000174"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
-        <Class IRI="http://purl.obolibrary.org/obo/COB_0000502"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700001"/>
-        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700002"/>
-        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
+        <Class IRI="http://purl.obolibrary.org/obo/COB_0000502"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://semanticscience.org/resource/SIO_000136"/>
@@ -315,16 +315,6 @@ Example source: https://github.com/nodrogluap/pokay/blob/5bba0b6255b740aba6df8a1
         <Literal xml:lang="en">altered viral load</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000</IRI>
-        <Literal>A characteristic that has been altered as compared to some reference characteristic in the presence of some variant.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000</IRI>
-        <Literal xml:lang="en">variant functional effect</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700001</IRI>
         <Literal xml:lang="en">molecular variant functional effect</Literal>
@@ -333,6 +323,16 @@ Example source: https://github.com/nodrogluap/pokay/blob/5bba0b6255b740aba6df8a1
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700002</IRI>
         <Literal xml:lang="en">host variant functional effect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127</IRI>
+        <Literal>A characteristic that has been altered as compared to some reference characteristic in the presence of some variant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127</IRI>
+        <Literal xml:lang="en">variant functional effect</Literal>
     </AnnotationAssertion>
 </Ontology>
 

@@ -427,7 +427,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101940">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101907"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
         <obo:IAO_0000115 xml:lang="en">A detectability of infectious agent that has been altered as compared to some reference detectability of infectious agent.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">altered detectability of infectious agent</rdfs:label>
     </owl:Class>
@@ -458,7 +458,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101943">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101908"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
         <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to environmental condition that has been altered as compared to some reference susceptibility of infectious agent to environmental condition.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">altered susceptibility of infectious agent to environmental condition</rdfs:label>
     </owl:Class>
@@ -540,7 +540,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101951">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101910"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
         <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to antipathogenic agent that has been altered as compared to some reference susceptibility of infectious agent to antipathogenic agent.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">altered antipathogenic agent susceptibility of infectious agent</rdfs:label>
     </owl:Class>
@@ -704,7 +704,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101967">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101914"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
         <obo:IAO_0000115 xml:lang="en">A susceptibility of infectious agent to host immune response that has been altered as compared to some reference susceptibility of infectious agent to host immune response.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">altered host immune response susceptibility of infectious agent</rdfs:label>
     </owl:Class>
@@ -920,7 +920,7 @@
     <!-- http://purl.obolibrary.org/obo/GENEPIO_0101990 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101990">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
         <obo:IAO_0000115 xml:lang="en">A viral life cycle stage that has been altered as compared to some reference viral life cycle stage.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">altered viral life cycle stage</rdfs:label>
     </owl:Class>
@@ -1222,7 +1222,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0102061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0102037"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
         <obo:IAO_0000115 xml:lang="en">A vaccine susceptibility of infectious agent that has been altered as compared to some reference vaccine susceptibility.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">altered vaccine susceptibility of infectious agent</rdfs:label>
     </owl:Class>
@@ -1893,12 +1893,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700001"/>
@@ -1908,6 +1902,12 @@
     <!-- http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO:0101127"/>
 </rdf:RDF>
 
 
