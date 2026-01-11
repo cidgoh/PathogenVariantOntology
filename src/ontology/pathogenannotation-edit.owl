@@ -31,6 +31,24 @@
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102036"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102146"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102147"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0700000"/>
     </Declaration>
     <Declaration>
@@ -133,6 +151,30 @@
         </ObjectMinCardinality>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102142"/>
+        <Class IRI="http://purl.obolibrary.org/obo/SEPIO_0000173"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102143"/>
+        <Class IRI="http://purl.obolibrary.org/obo/SEPIO_0000173"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102144"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001909"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102145"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001909"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102146"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001909"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0102147"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001909"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0700000"/>
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
     </SubClassOf>
@@ -199,6 +241,66 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102036</IRI>
         <Literal>sequence mutation set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102142</IRI>
+        <Literal>A study finding about a statistically significant positive correlation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102142</IRI>
+        <Literal>significant positive correlation study finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102143</IRI>
+        <Literal>A study finding about a statistically insignificant correlation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102143</IRI>
+        <Literal>insignificant correlation study finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102144</IRI>
+        <Literal>A statistical conclusion based on data that is to reject the null hypothesis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102144</IRI>
+        <Literal>reject the null hypothesis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102145</IRI>
+        <Literal>A statistical conclusion based on data that is to fail to reject the null hypothesis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102145</IRI>
+        <Literal>fail to reject the null hypothesis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102146</IRI>
+        <Literal>A nonstatistical conclusion based on data that is a conclusion about an association.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102146</IRI>
+        <Literal>conclusion about an association</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102147</IRI>
+        <Literal>A nonstatistical conclusion based on data that is a conclusion about no association.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENEPIO_0102147</IRI>
+        <Literal>conclusion about no association</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
