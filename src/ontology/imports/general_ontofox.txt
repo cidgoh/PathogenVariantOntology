@@ -130,15 +130,6 @@ http://purl.obolibrary.org/obo/GO_0034063 # stress granule assembly
 http://purl.obolibrary.org/obo/GO_0006949 # syncytium formation
 http://purl.obolibrary.org/obo/GO_0010467 # gene expression
 includeAllChildren
-http://purl.obolibrary.org/obo/GO_0075733 #intracellular transport of virus
-http://purl.obolibrary.org/obo/GO_0046718 #symbiont entry into host cell
-http://purl.obolibrary.org/obo/GO_0044826 #viral genome integration into host DNA
-http://purl.obolibrary.org/obo/GO_0019079 #viral genome replication
-http://purl.obolibrary.org/obo/GO_0019076 #viral release from host cell
-http://purl.obolibrary.org/obo/GO_0019068 #virion assembly
-http://purl.obolibrary.org/obo/GO_0019062 #virion attachment to host cell
-http://purl.obolibrary.org/obo/GO_0019075 #virus maturation
-includeAllAxioms
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
@@ -147,6 +138,40 @@ http://purl.obolibrary.org/obo/BFO_0000001 # entity
 includeAllIntermediates
 
 [Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
+http://purl.obolibrary.org/obo/IAO_0000114 # curation status
+http://purl.obolibrary.org/obo/IAO_0000115 # definition
+http://purl.obolibrary.org/obo/IAO_0000117 # term editor
+http://purl.obolibrary.org/obo/IAO_0000118 # alternate terms
+http://purl.obolibrary.org/obo/IAO_0000119 # definition source
+
+
+#################################################
+#################################################
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0075733 #intracellular transport of virus
+http://purl.obolibrary.org/obo/GO_0046718 #symbiont entry into host cell
+http://purl.obolibrary.org/obo/GO_0044826 #viral genome integration into host DNA
+http://purl.obolibrary.org/obo/GO_0019079 #viral genome replication
+http://purl.obolibrary.org/obo/GO_0019076 #viral release from host cell
+http://purl.obolibrary.org/obo/GO_0019068 #virion assembly
+http://purl.obolibrary.org/obo/GO_0019062 #virion attachment to host cell
+http://purl.obolibrary.org/obo/GO_0019075 #virus maturation
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
 http://www.w3.org/2000/01/rdf-schema#label
 http://www.w3.org/2000/01/rdf-schema#comment
 http://purl.obolibrary.org/obo/IAO_0000111 # editor prefered label
