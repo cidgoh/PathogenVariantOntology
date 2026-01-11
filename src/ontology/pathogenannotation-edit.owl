@@ -137,6 +137,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/GENEPIO_0101127/GENEPIO_0700000"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <Class IRI="http://purl.obolibrary.org/obo/SEPIO_0000174"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/STATO_0000065"/>
         <Class IRI="http://purl.obolibrary.org/obo/SEPIO_0000174"/>
     </SubClassOf>
