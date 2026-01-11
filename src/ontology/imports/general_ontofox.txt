@@ -378,6 +378,7 @@ SEPIO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/SEPIO_0000174 # statement
 http://purl.obolibrary.org/obo/SEPIO_0000173 # study finding
+http://purl.obolibrary.org/obo/SEPIO_0000084 # has_supporting_information
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
