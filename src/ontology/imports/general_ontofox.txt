@@ -92,6 +92,8 @@ GENEPIO
 http://purl.obolibrary.org/obo/GENEPIO_0001741  # draft GenEpiO component record
 http://purl.obolibrary.org/obo/GENEPIO_0100599 # gene name
 http://purl.obolibrary.org/obo/GENEPIO_0100598 # gene symbol
+http://purl.obolibrary.org/obo/GENEPIO_0100299 # SARS-CoV-2 gene
+includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
