@@ -137,7 +137,7 @@ includeAllChildren
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeComputedIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
@@ -170,7 +170,7 @@ http://purl.obolibrary.org/obo/GO_0019075 #virus maturation
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
 
 [Source term retrieval setting]
-includeAllIntermediates
+includeComputedIntermediates
 
 [Source annotation URIs]
 includeAllAxioms
