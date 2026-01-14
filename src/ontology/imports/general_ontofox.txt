@@ -121,7 +121,7 @@ GO
 http://purl.obolibrary.org/obo/GO_0019058 # viral life cycle
 http://purl.obolibrary.org/obo/GO_0042493 # response to drug
 http://purl.obolibrary.org/obo/GO_0042110 # T cell activation
-http://purl.obolibrary.org/obo/GO_0004904 # interferon receptor activity
+http://purl.obolibrary.org/obo/GO_0004905 # type 1 interferon receptor activity
 http://purl.obolibrary.org/obo/GO_0042783 # evasion of host immune response
 http://purl.obolibrary.org/obo/GO_0003823 # antigen binding
 http://purl.obolibrary.org/obo/GO_0098678 # viral tropism switching
