@@ -265,7 +265,6 @@ NCBITaxon
 [Low level source term URIs]
 
 http://purl.obolibrary.org/obo/NCBITaxon_10239 # viruses
-http://purl.obolibrary.org/obo/NCBITaxon_2 # root
 http://purl.obolibrary.org/obo/NCBITaxon_2697049 # Severe acute respiratory syndrome coronavirus 2
 http://purl.obolibrary.org/obo/NCBITaxon_2709072 # Bat coronavirus RaTG13
 http://purl.obolibrary.org/obo/NCBITaxon_10244 # Monkeypox virus
