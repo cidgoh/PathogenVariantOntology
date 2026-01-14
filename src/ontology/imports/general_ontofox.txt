@@ -258,6 +258,36 @@ http://purl.obolibrary.org/obo/IAO_0000119 # definition source
 
 #################################################
 
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+
+http://purl.obolibrary.org/obo/NCBITaxon_10239 # viruses
+http://purl.obolibrary.org/obo/NCBITaxon_2 # root
+http://purl.obolibrary.org/obo/NCBITaxon_2697049 # Severe acute respiratory syndrome coronavirus 2
+http://purl.obolibrary.org/obo/NCBITaxon_2709072 # Bat coronavirus RaTG13
+http://purl.obolibrary.org/obo/NCBITaxon_10244 # Monkeypox virus
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_10239
+subClassOf http://purl.obolibrary.org/obo/OBI_0100026 #OBI:organism
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+copyTo http://purl.obolibrary.org/obo/IAO_0000111
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118 #iao:alternative term
+http://purl.obolibrary.org/obo/ncbitaxon#common_name
+
+
+#################################################
+
+
 [Source ontology]
 OBI
 
