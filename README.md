@@ -1,2 +1,2 @@
-# PathogenVariantOntology
-An application ontology for describing pathogen mutations, their functional effects, and links to literature evidence. This is a slice of GenEpiO.
+# Variant Impact Reporting Ontology (VIRO)
+The Variant Impact Reporting Ontology (VIRO) is an application ontology for describing pathogen mutations, their functional effects, and links to literature evidence. This is a slice of [GenEpiO](https://github.com/GenEpiO/genepio).
