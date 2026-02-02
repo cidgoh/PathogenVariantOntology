@@ -470,6 +470,8 @@ http://semanticscience.org/resource/SIO_000136 # description
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # IAO: information content entity
 http://semanticscience.org/resource/SIO_001035 # peer-reviewed
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # BFO: quality
+http://semanticscience.org/resource/SIO_000756 # database entry
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # IAO: information content entity
 
 [Source term retrieval setting]
 includeAllIntermediates
